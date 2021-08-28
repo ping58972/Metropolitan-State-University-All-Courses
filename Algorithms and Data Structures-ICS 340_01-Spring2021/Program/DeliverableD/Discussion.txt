@@ -1,0 +1,24 @@
+The attached zip file contains a superset of the test files that I will use for Deliverable D.  Here are details:
+
+Deliverable A regression test:  I will test with file F2a.txt
+
+Deliverable B regression test:  I will test with file F6b.txt
+
+Deliverable C regression test:  I will test with file F3c1.txt
+
+Deliverable D:  I will test with five of the following seven files:
+
+F1d.txt:  Complete graph, five nodes.  Your program should get the optimal solution to this for full credit.
+F1dd.txt:  FIle F1d with 3 edges removed.  Your program should get the optimal solution to this for full credit.
+F2d.txt:  Complete graph with 12 nodes.  Your program should get the optimal solution to this for full credit, or come very close.
+F2dd.txt:  This is file F2d with many edges removed.  It's the same file used for ID-DFS in Deliverable C.  If your program gives you a tour that doesn't use any fake edges, that will be good for full credit.  
+F3d.txt:  Complete graph with 49 nodes.  Your program should come close to the optimal solution to this for full credit.
+F3dd.txt:  This is file F3d with many edges removed.  It's the same file used for ID-DFS in Deliverable C.  If your program gives you a tour that doesn't use any fake edges, that will be good for full credit.    
+F4d.txt:  Complete graph with 58 nodes.  Your program should come close to the optimal solution to this for full credit.
+When deciding on credit I'll also look at your algorithm choices and how long it takes your algorithm to get an answer.  So if your algorithm doesn't get the best possible answer, it my still be worth full credit, or close to it.
+
+I will test with either all four complete graphs plus either F2dd or F3dd, or else I will test with graphs F2d, F3d, F4d, F1dd, and either F2dd or F3dd.
+
+Feel free to ask questions, especially in this discussion forum.
+
+Mike Stein

@@ -1,0 +1,23 @@
+# Metropolitan State University: 
+### Student: Nalonsgone Danddank,  ID: 14958950
+### Bacholor Degree with Computer Science
+### Course: Computer Security ICS382/CYBR332-51 
+#### schedule in Summer 2021 
+#### Instructor - Jennifer Grant 
+
+| Week | Date              | Topics and Required Readings                                                                                        | Deliverables                                                                                                                |
+| ---- | ----------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 1    | May 7 – May 17    | Read the Syllabus carefully and in its entirety<br>Complete all the first week tasks<br>Sign up for the vCloud Labs | · Complete Who AM I? video<br>· Establish your blog<br>· Post your first blog entry and provide comments on others’ entries |
+| 2    | May 18 – May 24   | · Chapter 1                                                                                                         | · Lab #1<br>· Quiz 1 (Chapter 1)                                                                                            |
+| 3    | May 25 – May 31   | · Chapter 2                                                                                                         | · Lab #2<br>· Quiz #2 (Chapter 2)<br>· Form the Group  Project team (No more than 4 members per team)                       |
+| 4    | June 1 – June 7   | · Chapter 3                                                                                                         | · Lab #3<br>· Quiz #3 (Chapter 3)<br>· Due: Individual Video Proposal                                                       |
+| 5    | June 8 – June 14  | · Chapter 4<br>· Chapter 5                                                                                          | · Lab #4<br>· Quiz #4 (Chapter 4 & 5)                                                                                       |
+| 6    | June 15 – June 21 | · Chapter 6                                                                                                         | · Quiz #5 (Chapter 6)<br>· Due: Group Project Proposal                                                                      |
+| 7    | June 22 – June 28 | · Chapter 7                                                                                                         | · Lab #5<br>· Quiz #6 (Chapter 7)                                                                                           |
+| 8    | June 29 – July 5  | · Chapter 8<br>· Chapter 9                                                                                          | · Lab #6<br>· Quiz #7 (Chapter 8)<br>· Quiz #8 (Chapter 9)                                                                  |
+| 9    | July 6 – July 12  | · Chapter 10<br>· Chapter 11                                                                                        | · Lab #7<br>· Quiz #9 (Chapter 10 and 11)                                                                                   |
+| 10   | July 13 – July 19 | · Chapter 12<br>· Chapter 13                                                                                        | · Lab #8<br>· Quiz #10 (Chapter 12 and 13)                                                                                  |
+| 11   | July 20 – July 26 | · Chapter 14                                                                                                        | · Lab #9<br>· Quiz #11 (Chapter 14)                                                                                         |
+| 12   | July 27 – Aug. 2  | · Chapter 15<br>· Chapter 16                                                                                        | · Lab #10<br>· Quiz #12 (Chapter 15 and 16)                                                                                 |
+| 13   | Aug. 3 – Aug. 9   | · Work on your Group Projects<br>· Finalize your individual video                                                   | · Due: Individual Video Projects                                                                                            |
+| 14   | Aug. 10 – Aug. 15 |                                                                                                                     | · Due: Peer Evaluations<br>· Due: Group Project Files<br>· Final Exam                                                       |

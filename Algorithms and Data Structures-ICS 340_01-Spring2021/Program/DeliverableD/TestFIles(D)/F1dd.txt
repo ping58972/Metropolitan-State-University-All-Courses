@@ -1,0 +1,6 @@
+~       val   A   B   C   D   E 
+Alpha     S   ~   3   ~   9   5
+Bravo     ~   4   ~   5   3   8
+Charlie   ~   9   7   ~  42  ~
+Delta     ~   6   ~   5   ~   1
+Echo      G   9   6   4   2   ~

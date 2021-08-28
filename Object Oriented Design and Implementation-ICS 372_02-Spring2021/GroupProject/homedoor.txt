@@ -1,0 +1,10 @@
+Chunk One: Ready, Unarmed
+Chunk Two: Away (arming, check, armed)
+Chunk Three: Stay (arming, check, armed)
+Chunk Four: Disarm (away & stay)
+Chunk Five: Warning, Breach
+One: Marc
+Two: Ping
+Three: Ryan
+Four: Gilbert
+Five: Richard

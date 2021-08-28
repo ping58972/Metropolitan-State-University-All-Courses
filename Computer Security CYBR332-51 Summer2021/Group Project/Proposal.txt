@@ -1,0 +1,63 @@
+TASK: The group leader must provide the following information before the deadline to avoid deduction in points.
+
+Group Name: This could be any name of your choice.
+Group members' name: The names of all the group members including the group leader. Please note that there may not be more than 4 members per group.
+Proposal Topic: Please provide the details of your group project. Unlike Individual Video Project, the group project requires planning and discussion among the group members. Your proposal should be at least a page long and must comprise of all the details as mentioned in the course syllabus.
+Assignment of duties: The proposal must provide the respective duties of each group member. Divide all the group related tasks and provide specific members' responsibilities. 
+TASK towards the semester end: Use the Group project dropbox and provide a completed peer evaluation. This task must be completed by all group members before the project presentation and submission due dates.
+
+TASK towards the semester end: Post the completed report, powerpoint presentations and any other relevant document pertaining to your project. This must be posted by the group leader under the orignal group thread that you created to provide the group project proposal. 
+
+
+We have to decide Proposal Topic, and finish our "Proposal" must be at least a page long by the end of nex weekend (June 20).
+  
+I have compress some Keys contain from D2L and syllabus, that we have to follow with like:
+
+Our proposal should consist of below: (According "Proposaltipshints.pdf" from D2L)
+
+1. Clear statement of research question
+	How we will do it. What it means to us? Why we want to explore this topic?
+2. Project Objective:
+	Time, Deadline, Step by step to finish our Project peper.
+3. Background of the Problem of the Project.
+	Presents and summarizes the problem we intend to solve and our solution to that problems.
+	what is the question that we want to explore in our research and why is this an interesting and importan question?
+	How would we explain the importance of our project?
+4. Describe our work plan consistent with our academic discipline
+	may include sientific research, use of samples, data gethering and statistical analysis.
+	explain the details of the proposed plan.
+	How will we go about expolring our research question? 
+	What will be our methods?
+5. Project timeline
+	Schedule, Step by step of our project (may be week by week)
+	include time to review and to write the final paper.
+6. Project References
+	use the standard convention: IEEE conference 
+
+In the end we have to separate our duties.
+
+Assignment of duties:
+	Each group member: Researching sources to support proposal. 
+			Each group member to contribute at least 4 sources. 
+	Adam Felling: ?
+	Chi Dang: ?
+	Nathan Lantaigne-Goetsch: ?
+	Nalongsone Danddank: ?
+
+I just take my brandstorm and figure out some idea with subject or issue that we want to develop to our final paper below:  
+
+	1. Abstract, Keywords + Introduction. (0.5 page)
+	2. How Stealthy scan work ? (1 page)
+	3. Importance of Stealthy scanning techniques to Cyber Security and Criminal. (1 page)
+	4. Type of Stealth scanning techniques or Methods for Hacking. (1 page)
+	5. comparision ofstealth scan to other's scan ? (1 page)
+	6. stealthy scan provides security to our system environment (1 page)
+	7. Conclusion (0.5 page)
+	8. Reference (1 page)
+
+I suggest we could separate our Assignment of duties by subject or issue by example above. 
+
+So, every one choose these issue by one or more or conbine, to research and detail them.
+
+If anythings more interesting idea or subject to add or remove or modify to be better, Just feel free to comment and message.
+	

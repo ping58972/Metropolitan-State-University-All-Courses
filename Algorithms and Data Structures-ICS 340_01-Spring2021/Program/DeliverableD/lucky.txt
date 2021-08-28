@@ -1,0 +1,39 @@
+Chosen file = C:\Users\pink5\eclipse-workspace\DanddankICS340ProgDelivA\FinalTestFiles\F2dd.txt
+
+Using generic Algorithm:
+Initial cycle: LA Was NY Den Atl Dal Sea SF Min Mia Chi Bos , dist = 3502488
+Better cycle ( i = 6284 ) : LA SF Sea Den Min Chi Dal Atl Was NY Mia Bos , dist = 7749
+The Algorithm time limited by 3.001sec.
+Best cycle: LA SF Sea Den Min Chi Dal Atl Was NY Mia Bos , dist = 7749
+
+
+Using generic Algorithm:
+Initial cycle: LA SF Den Atl Sea Was Chi Dal Mia Min NY Bos , dist = 2503997
+Better cycle ( i = 5942 ) : LA SF Sea Min Dal Den Chi Atl Was NY Mia Bos , dist = 8579
+The Algorithm time limited by 3.001sec.
+Best cycle: LA SF Sea Min Dal Den Chi Atl Was NY Mia Bos , dist = 8579
+
+
+
+Using generic And simulated Anneling Algorithm:
+Initial cycle: LA Sea NY SF Mia Atl Chi Den Min Dal Was Bos , dist = 3004007
+Better cycle ( temp = 28668.03584569024 ) : LA Den SF Sea Min Dal Chi Was Atl Mia NY Bos , dist = 8580
+The Algorithm time limited by 3.001sec.
+Best cycle: LA Den SF Sea Min Dal Chi Was Atl Mia NY Bos , dist = 8580
+
+
+Using simulated Anneling Algorithm:
+Initial cycle: LA Atl Min Sea Chi Dal SF Mia NY Den Was Bos , dist = 4003315
+Better cycle ( temp = 28198.824509322345 ) : LA Sea SF Den Min Dal Mia Atl Was NY Chi Bos , dist = 8171
+The Algorithm time limited by 3.001sec.
+Best cycle: LA Sea SF Den Min Dal Mia Atl Was NY Chi Bos , dist = 8171
+
+
+
+
+
+Using generic Algorithm and time limited by 600 seconds: 
+Initial cycle: LA Atl Chi Dal Mia Den SF NY Min Sea Was Bos , dist = 3504291
+Better cycle ( i = 13590 ) : LA SF Den Sea Min Dal Chi Was Atl Mia NY Bos , dist = 8423
+Better cycle ( i = 65638 ) : LA Sea SF Den Min Dal Mia Atl Was Chi NY Bos , dist = 7907
+-->Best cycle: LA Sea SF Den Min Dal Mia Atl Was Chi NY Bos , dist = 7907

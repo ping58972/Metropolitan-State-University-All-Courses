@@ -1,0 +1,52 @@
+Create local Database:
+
+In MySQL work bench:
+
+Create new connection with local database:
+
+Network address: 127.0.0.1
+
+User: root
+
+Password: ABoody1994!!
+
+Then run the my attached "videogame database script.sql" script inside the new connection to create the database that my app will connect to.
+
+
+
+To run the .java files:
+
+1.create a new java project with any name
+
+2.create 4 new classes within the new project with the names: "db", "gui","db2", gui2"
+
+3.copy and paste the contents of each .java files that I submitted into the corresponding class names that you created. 
+   For example: copy the code content from my "db.java" file into your "db" class.
+
+4.You need to add the jar file to your project Build Path.
+	 In Eclipse:
+	Project->Properties->Java Build Path -> Add External jars 
+	Choose the jar file in the folder “MySQL\Connector J 5.1”
+
+5.Then right click on "db.java" or "db2.java" in your package explorer path > Run as > Java Application.
+
+db.java contains Part 1 of the project: Has the data from the "game" table
+
+bd2.java contains Part2 of the project: has the data from the store and the purchase_order tables 
+which shows store code, store name, store manager, order num, and order date for every order made.
+
+6. in each form there will be "Next" "Previous" "Last" "First", these buttons are used to navigate through the table inside the form GUI
+
+"Next" will show the next row of the table
+"Previous" will show the previous row of the table
+"Last" will show the last row of the table
+"First" will show the first row of the table
+
+
+Screenshots:
+
+Form 1.png Contains a picture of the first form
+Form 2.png Contains a picture of the second form
+	
+
+

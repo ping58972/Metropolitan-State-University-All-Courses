@@ -1,0 +1,11 @@
+ACFv2EN-3138-a034N00000gj3ifQAA
+
+
+
+
+AWS CLI:   
+   Copy and paste the following into ~/.aws/credentials
+[default]
+aws_access_key_id=ASIAS3RJCTHPDHHJZIN3
+aws_secret_access_key=XaFk5T6dfdMgcWq6rJ/Ko2GClw69E26lCK82fheF
+aws_session_token=FwoGZXIvYXdzEND//////////wEaDMYXRLvCSfvvSyhbeCLDAYId/QMTbzM0nxEyGNsUUPz/Qc6HWG8AnzAP2vAc+8plfJim1odTfKWzTNvviGtPSDGXqPmDkjf/s3e0bRDVE0j4TUqH5wOo4qWw1rEA36LQTH0Qt25pczzs7IK6Jc0THHn77HXTEtWTTUazfIlRQbWtlCB4eN/vdrawz6gJISSfBs8qfrzZEv/DHJOlKYrmtjoyPwCbV4Z3w2FHXTOnAfi8JXuZkj/pA6qideOP4hwBIQxniFkyiOo9YPPryZ3c/B6HIij41YeJBjItSO5CDE91G18uyg0p3JH3Zz36oivL1vMGw/A8sZ9iu7r2iCnEYBzKv6K/a3du

@@ -1,0 +1,45 @@
+SF: 122.4
+Sea: 122.3
+LA: 118.3
+Den: 105.0
+Dal: 96.8
+Min: 93.3
+Chi: 87.6
+Atl: 84.4
+Mia: 80.2
+Was: 77.0
+NY: 74.0
+Bos: 71.1
+     |   SF  Sea   LA  Den  Dal  Min  Chi  Atl  Mia  Was   NY  Bos
+-----|------------------------------------------------------------
+   SF|    .  691 1614 2426 3093 3944 4298 4879 5487 6404 6617 6824
+  Sea|    .    . 1004 1816 2483 3334 3688 4269 4877 5794 6007 6214
+   LA|    .    .    . 2037 2704 3555 3909 4490 5098 6015 6228 6435
+  Den|    .    .    .    . 3285 4136 4490 5071 5679 6596 6809 7016
+  Dal|    .    .    .    .    . 3898 4252 4833 5441 6358 6571 6778
+  Min|    .    .    .    .    .    . 4701 5282 5890 6807 7020 7227
+  Chi|    .    .    .    .    .    .    . 4977 5585 6502 6715 6922
+  Atl|    .    .    .    .    .    .    .    . 5949 6866 7079 7286
+  Mia|    .    .    .    .    .    .    .    .    . 6186 6399 6606
+  Was|    .    .    .    .    .    .    .    .    .    . 7220 7427
+   NY|    .    .    .    .    .    .    .    .    .    .    . 7574
+  Bos|    .    .    .    .    .    .    .    .    .    .    . 7781
+
+     |   SF  Sea   LA  Den  Dal  Min  Chi  Atl  Mia  Was   NY  Bos
+-----|------------------------------------------------------------
+   SF|    .   SF  Sea   LA  Den  Dal  Min  Chi  Atl  Mia  Was   NY
+  Sea|    .    .   SF   LA  Den  Dal  Min  Chi  Atl  Mia  Was   NY
+   LA|    .    .    .  Sea  Den  Dal  Min  Chi  Atl  Mia  Was   NY
+  Den|    .    .    .    .   LA  Dal  Min  Chi  Atl  Mia  Was   NY
+  Dal|    .    .    .    .    .  Sea  Min  Chi  Atl  Mia  Was   NY
+  Min|    .    .    .    .    .    .  Dal  Chi  Atl  Mia  Was   NY
+  Chi|    .    .    .    .    .    .    .  Dal  Atl  Mia  Was   NY
+  Atl|    .    .    .    .    .    .    .    .  Dal  Mia  Was   NY
+  Mia|    .    .    .    .    .    .    .    .    .  Chi  Was   NY
+  Was|    .    .    .    .    .    .    .    .    .    .  Chi   NY
+   NY|    .    .    .    .    .    .    .    .    .    .    .  Chi
+  Bos|    .    .    .    .    .    .    .    .    .    .    .   NY
+
+Shortest bitonic tour has distance 7781
+Tour is: SF->LA->Den->Dal->Atl->Mia->Was->NY->Bos->Chi->Min->Sea->SF
+Reversed Tour is: SF->Sea->Min->Chi->Bos->NY->Was->Mia->Atl->Dal->Den->LA->SF

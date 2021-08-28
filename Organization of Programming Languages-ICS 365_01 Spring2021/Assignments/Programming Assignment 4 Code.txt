@@ -1,0 +1,30 @@
+(define (up-to-first-char lis)
+	;;;If lis is null then it is an empty list
+    (if (null? lis)
+        '()
+		;;;If car of lis is a number (not a character)
+        (if (number? (car lis))
+			;;;Append car of lis then recursively call the cdr of the list
+            (append (list (car lis)) (up-to-first-char (cdr lis))) 
+			;;;Else append nothing to the tail
+			(append '()))))
+			
+(define (removechar lis cha)
+    (if (null? lis)
+        '()
+		;;;If car of lis is equal to cha
+        (if (eq? (car lis) cha)
+			;;;Append the rest of the list and recursively call the function
+            (append (removechar (cdr lis) cha))
+			;;;Else append the character along with the rest of the list calling the function recursively
+            (append (list (car lis)) (removechar (cdr lis) cha)))))
+			
+(define (replacechar lis a b)
+    (if (null? lis)
+        '()
+		;;;If car of lis is equal to a
+        (if (eq? (car lis) a)
+			;;;Append b to the list instead of a, then call the function recursively with cdr of lis
+            (append (list b) (replacechar (cdr lis) a b))
+			;;;Else append the car of lis normally
+            (append (list (car lis)) (replacechar (cdr lis) a b)))))

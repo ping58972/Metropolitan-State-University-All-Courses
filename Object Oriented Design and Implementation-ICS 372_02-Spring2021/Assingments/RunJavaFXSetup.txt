@@ -1,0 +1,16 @@
+
+
+0:00 - E(fx)CLIPSE Plugin Installation
+1:15 - Creating a new JavaFX Project
+1:40 - Downloading and cofiguring JavaFX
+3:00 - Creating User Library
+4:22 - Adding JavaFX to Eclipse
+4:56 - Configuring Build Path and Arguments
+
+Arguments:  --module-path "your-path\lib" --add-modules javafx.controls,javafx.fxml
+Ex: --module-path "C:\Program Files\Java\javafx-sdk-11.0.2\lib" --add-modules javafx.controls,javafx.fxml
+
+5:58 - Running the program
+
+Eclipse: https://www.eclipse.org/downloads/pac...
+JavaFX:  https://gluonhq.com/products/javafx/

@@ -1,0 +1,103 @@
+Author: Nalongsone Danddank	
+Student ID : 14958950	StarID: jf3893pd
+Email: nalongsone.danddank@my.metrostate.edu
+Metropolitan State University, St. Paul
+Department of Information and Computer Science
+ICS 462 Operating Systems
+Spring 2021
+Project 2: xv6 Scheduler
+
+Developing Environment:
+    CPU: intel X86
+    OS: window 10 (64bit)
+    Virtual OS: VM Box 6.1.2
+        Ubunto 18.04.5 LTS (64 bit)
+            GCC :(Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+            GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
+            qemu-x86_64 Version 4.1.0
+
+Original source from:
+    Github clone: https://github.com/mit-pdos/xv6-public.git
+
+Following the project assignment 2 requirment, 
+    the scheduler to use a multi-level feedback queue 
+    with lottery ticket based process selection.
+    Add sysstem calls: getpinfo, settickets, lottery.
+    Has modified some files from my last xv6-private folder of project 1 
+    and there are new modified files in this xv6-private folder below:
+    
+    1. syscall.h
+        -> at line 24 add: #define SYS_getpinfo  23
+        -> at line 25 add: #define SYS_settickets 24
+        -> at line 26 add: #define SYS_lottery 25
+    2. defs.h
+        -> below line 105: // proc.c 
+        -> at line 125 add: int  lottery(int);
+    3. user.h
+        -> below line 3: struct pstat;
+        -> at line 28 add: int getpinfo(struct pstat*);
+        -> at line 29 add: int settickets(int);
+        -> at line 30 add: int lottery(void);
+    4. sysproc.c
+        -> at line 9 add: #include "pstat.h"
+        -> at line 100 to 115 add:
+            int sys_getpinfo(void) { ...CODE... }
+            int sys_settickets(void) { ...CODE... }
+            int sys_lottery(void) { ...CODE... }
+    5. usys.S
+        -> at line 33 add: SYSCALL(getpinfo)
+        -> at line 34 add: SYSCALL(settickets)
+        -> at line 35 add: SYSCALL(lottery)
+    6. syscall.c
+        -> at line 108 add: extern int sys_getpinfo(void);
+        -> at line 109 add: extern int sys_settickets(void);
+        -> at line 110 add: extern int sys_lottery(void);
+        -> at line 135 add: [SYS_getpinfo]   sys_getpinfo,
+        -> at line 136 add: [SYS_settickets]   sys_settickets,
+        -> at line 137 add: [SYS_lottery]   sys_lottery,
+    7. proc.c
+        -> at line 11 add: #include "pstat.h"
+        -> Modified scheduler function to be MLFQ and Lottery scheduler.
+            at line 322 to 451 : void scheduler(void) { ...NEW CODE...}
+        -> then add system call function lottery for generating random number:
+            at line 640 to 657 add: int lottery(int range) { ...CODE...}
+    8. Adding new three C files to the xv6 folder:
+        -> create a new c file name: pstat.h
+            add: struct pstat { ... CODE...}
+        -> create a new c file name: getpinfo.c 
+            add: #define check() function and some codes for testing 
+                system call getpinfo and show the result of MLFQ.
+        -> create a new c file name: ps_mlfqlottery.c
+            add some codes to implement settickets 
+            and get Information show up each cpu and tickets by time. 
+    9. Makefile
+        -> in UPROGS=\ at line 187 and 188 add: _getpinfo\ _ps_mlfqlottery\
+        -> in EXTRA=\ at line 264 add: getpinfo.c ps_mlfqlottery.c
+
+To run the OS in xv6-private folder:
+    -> cd enter in the folder xv6-private.
+    -> type input command line "make qemu-nox" 
+    -> then we get in the OS.
+
+    -> type commandline "ps_mlfqlottery" which we created 
+        to testing and showing the MLFQ and Lottery scheduler results.
+        there will return the result like below: 
+            Time: 0, pid: 1, cpu-time: 51 total-cpu:104 tickets: 7 total-tickets: 100 queue: low
+            .
+            .
+            .
+            Time: 100, pid: 8, cpu-time: 7727 total-cpu:18161 tickets: 71 total-tickets: 100 queue: high 
+
+    -> type commandline "getpinfo" to test and show up pid, high tick, low tick, and tickets. like below:
+            pid: 1 hticks: 1 lticks:50, tickets: 71
+            .
+            .
+            .
+            pid: 7 hticks: 1 lticks:71880, tickets: 23
+        
+
+MLFQ Lottery Results Line Graph: "mlfq_results.png" and "mlfq_result.xlsx"
+    I set the 4 tickets on the system call "settickets(num)" num = 1, 7, 23, 75. (in ps_mlfqlottery.c file)
+    So We can see on the time progresses, CPU is in terms of time slices
+    it is working on the ticket share. Then, the large numbers show that when the number grows
+    very large, the results will get very closer to the values of we want.

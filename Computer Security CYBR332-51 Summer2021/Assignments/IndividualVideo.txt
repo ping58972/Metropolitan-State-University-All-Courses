@@ -1,0 +1,82 @@
+https://youtu.be/W_rV3NFqKF4
+Topic: 	
+Introduction Face Recognition in Authentication
+	1. Introduction myself:
+		Hi every ones, my name is Nalongsone Danddank, I'm a student from Metropolitan State University, And today I would like to present an Individual Video presentation that a part of Computer Security course ICS 382 by my instructor is Jennifer Grant. By the way, this video is solely for the educational purpose and I am not liable for any damages that could be caused using these demonstrations.
+
+		So, today, I would like to talk about the topics below like, what is Facial recognition, how does faial recognition work in authentication, how the implement the deep learning algorithm for it, how to train the data with the algorithm for facial recognition system and show some examples. 	
+	
+
+	2. What is Face Recognition ?
+		So, first thing, we have to understand what is Face Recognition. Facial recognition is a way of identifying or confirming an individual's identity using their face. And Facial recognition system can be used to identify prople in photos, videos, and in real time.  Facial recognition is a category of biometric security. Other forms of biometric software include voice recognition, fingerprint recognition, and eye retina or iris recognition. The technology is mostly used for security and law enforcement, though there is increasing interest in other areas of use.
+	3. How does facial recognition work in Authentication?
+		 As we know that Apple Iphone Face ID used to unlock iPhones that launched on the iPhone 10 in 2017. However, facial recognition does not rely on a massive database of photos to determine an individual's identity, it simply identifies and recognizes one person as the sole owner of the device while limiting access to others.
+		Facial technology systems can vary, but in general, they tend to operate as follows:
+	Step 1: Face detection
+The camera detects and locates the image of a face, either alone or in a crowd. The image may show the person looking straight ahead or in profile.
+
+	Step 2: Face analysis
+Next, an image of the face is captured and analyzed. Most facial recognition technology relies on 2D rather than 3D images because it can more conveniently match a 2D image with public photos or those in a database. The software reads the geometry of your face. Key factors include the distance between your eyes, the depth of your eye sockets, the distance from forehead to chin, the shape of your cheekbones, and the contour of the lips, ears, and chin. The aim is to identify the facial landmarks that are key to distinguishing your face.
+
+	Step 3: Converting the image to data
+The face capture process transforms analog information (a face) into a set of digital information (data) based on the person's facial features. Your face's analysis is essentially turned into a mathematical formula. The numerical code is called a faceprint. In the same way that thumbprints are unique, each person has their own faceprint.
+
+	Step 4: Finding a match
+Your faceprint is then compared against a database of other known faces. For example, the FBI has access to up to 650 million photos, drawn from various state databases. On Facebook, any photo tagged with a person’s name becomes a part of Facebook's database, which may also be used for facial recognition. If your faceprint matches an image in a facial recognition database, then a determination is made.
+	
+	Demonstrate Basic Code of Deep Learning	
+Ok, next, I would like to show and run a python code on deep learning algorithm and how to 
+
+Encoding face images into a 128-dimensional vector
+Using a ConvNet to compute encodings
+look in the file inception_blocks_v2.py
+
+The key things you need to know are:
+
+This network uses 96x96 dimensional RGB images as its input. Specifically, inputs a face image  as a tensor of shape 
+It outputs a matrix of shape    that encodes each input face image into a 128-dimensional vector
+
+2 - Loading the pre-trained model
+FaceNet is trained by minimizing the triplet loss.
+Here are some examples of distances between the encodings between three individuals
+
+3 - Applying the model
+
+Let's build a database containing one encoding vector for each person who is allowed to enter the office. To generate the encoding we use img_to_encoding(image_path, model), which runs the forward propagation of the model on the specified image.
+This database maps each person's name to a 128-dimensional encoding of their face.
+
+
+Younes is trying to enter the office and the camera takes a picture of him ("images/camera_0.jpg"). Let's run your verification algorithm on this picture:
+
+Benoit, who does not work in the office, stole Kian's ID card and tried to enter the office. The camera took a picture of Benoit ("images/camera_2.jpg). Let's run the verification algorithm to check if benoit can enter.
+
+3.2 - Face Recognition
+
+Implement who_is_it()
+
+Younes is at the front-door and the camera takes a picture of him ("images/camera_0.jpg"). Let's see if your who_it_is() algorithm identifies Younes.
+
+You can change "camera_0.jpg" (picture of younes) to "camera_1.jpg" (picture of bertrand) and see the result.
+
+	Example of Using Facial Recognition
+Unlocking Phones: Various phones, including the most recent iPhones, use face recognition to unlock the device. The technology offers a powerful way to protect personal data and ensures that sensitive data remains inaccessible if the phone is stolen. Apple claims that the chance of a random face unlocking your phone is about one in 1 million.
+		
+
+Proposal: 
+I would like to introduction Facial Recognition in Authentication by biometrics that using  deep learning algorithms to help our access to our device or application more easy , and some code on experiment program by Python and Libraries. For example, unlock mobile by Face Verification.
+
+The video must be at least 10 minutes long.
+
+Select a suitable title and description that reflects the content of the video.
+
+At the start of the video, you should announce that you are doing this as a part of Computer Security course, your name, and your instructor name.
+
+Due to the nature of presented topics, introduce a disclaimer that this video is solely for the educational purpose and that you are not liable for any damages that could be caused using these demonstrations.
+
+Start with a brief discussion of what this video is about, followed by any demo/implementation. In the end properly conclude your video.
+
+If applicable, video Category should be Education, How To, or Science and Technology.
+
+In order for people to be able to find your video, use proper keywords in the Tag section. You can use your name, instructor name, class number, Metrostate University, and any other important keywords.
+
+Individual Video Reviews: You are required to review and provide comments on the D2L site of at least 3 of your classmate’s Individual Video’s.

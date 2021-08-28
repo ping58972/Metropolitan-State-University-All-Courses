@@ -1,0 +1,21 @@
+M: 44.
+C: 41.
+D: 39.
+F: 32.
+     |    M    C    D    F
+-----|--------------------
+    M|    .  398 1402 2196
+    C|    .    . 1322 2116
+    D|    .    .    . 2289
+    F|    .    .    . 3083
+
+     |    M    C    D    F
+-----|--------------------
+    M|    .    M    C    D
+    C|    .    .    M    D
+    D|    .    .    .    C
+    F|    .    .    .    D
+
+Shortest bitonic tour has distance 3083
+Tour is: M->D->F->C->M
+Reversed Tour is: M->C->F->D->M

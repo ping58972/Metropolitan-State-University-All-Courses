@@ -1,0 +1,98 @@
+Week 3:
+
+https://www.information-age.com/how-vpn-improve-cyber-security-posture-123487910/
+
+Protect our IP and Location from Cyber Attacks by VPN
+
+If we want protect or hiding the IP address and location from cyber attacks, using the Virtual Private Network(VPN) to handle them is not bad choice because can help improve security and protect systems from targeted cyber attacks. The article discussion topic like: Encryption and security protocols, Cleanweb, Multohop, kill Switch, Protection for nomadic employees, So we might not have to improve our security posture alone. We could invest in a VPN service today and experience the benefit of our industry-leading encryption and additional features.
+
+https://ping58972.wordpress.com/2021/05/29/protect-our-ip-and-location-from-cyber-attacks-by-vpn/
+
+Week 4:
+Inroduction Password Attack Methods and Prevent Them
+https://solutionsreview.com/identity-management/the-top-7-password-attack-methods-and-how-to-prevent-them/
+The password is the more and more effect to people living these day. Almsot every one have to remember to many password to access their own devices, and we could not just simple set up a easy password because of preventing forgetful. This confict occure and impact to our living these day. This article introducts to the top 7 password attack mathods like: Brute Force Attack, Dictionary Attack, Phishing, Rainbow Table Attack, Credential Stuffing, Password Spraying, Keylogger Attack. And also describe how to prevent password attack methods.
+
+https://ping58972.wordpress.com/2021/06/03/inroduction-password-attack-methods-and-prevent-them/
+
+Week 5:
+
+https://www.securityinfowatch.com/access-identity/access-control/article/21150569/how-ai-can-improve-security-entrances
+
+Improving Access Control by AI.
+As we known, Artificial Intelligence has changed our world already. We used AI for many products like in phone or applications around us. And another example of using AI to improve our life to be better is health care. We can use AI technology like Machine Learning to learn the data or picture for diagnosis cancer, etc. However, in this article was introduct to how to use AI technic to improve our security to access to our devices or asset, like using Deep Learning to train the big data or so many picture to recognize humen facial to identify person and authentication to reach our access controls purpose. 
+
+Week 6:
+
+https://tateeda.com/blog/the-growing-importance-of-software-development-security
+
+The Importance of Security for SDLC
+
+The Cyber-security attack occur around the world these days. While developing a software, developer have to consider the importance of security, and prevent some attack or demand the system or software in the future. In this article has talked about create a secure SDLC, Softeate that demands secure development, benefits of secure software development, secure development requires secure coding, secure softeare development at Tateeda, and get help with your custom project.
+
+https://ping58972.wordpress.com/2021/06/16/the-importance-of-security-for-sdlc/
+
+Week 7:
+
+https://blogs.manageengine.com/network/opmanager/2020/12/18/why-do-businesses-need-network-mapping-software.html
+
+The Importance of Network Mapping Software for Businesses
+
+These day, The Businesses around the world have to spend money and resource into internet because of the effect of internet. The businesses must provide the security for the system network that connect to outsite internet. So the Network Mapping Tools are every importance for them to management and mornitor the connect of network of internet. This article talks about the need of network mapping tools for our businesses and how the software provides application tools to study, virtualize, discovers and solving issues proactively.  
+
+
+Week 8:
+https://www.upgrad.com/blog/cryptography-in-blockchain/
+Introduction Cryptography In Blockchain
+
+As we know Blockchain technology has been in the key areas of development for all the business companies ans meny number of startup in this technology from the past few years. The cryptography in blockchain will be providing so many opportunities for devlop their careers in this field. This article describes about Blockchain wiht the Cryptography, how  cryptography related to Blockchain, like Encryption and Decryption. Use of cryptographt in blockchain, and understand types of cryptography, key and Hash function, etc.
+
+https://ping58972.wordpress.com/2021/07/02/introduction-cryptography-in-blockchain/
+
+Week 9:
+https://www.swcomms.co.uk/blog/article/the-motivations-of-a-hacker/
+What's Purpose of Hacker to Attack
+ 
+This Article discuss on the reason or the motivations of a hacker to attack for many businesses. Except money, there are some motivations that attract more and more hackers join the criminal even they would take risks, law suite, and go to jail. Cyber-attacks are on the increase. we can see on the news these days that so many busineses including Tesco, Ashley Madison, TalkTalk and other large businesses, proved to be a difficult year from hacker attack.
+
+https://ping58972.wordpress.com/2021/07/11/whats-purpose-of-hacker-to-attack/
+
+Week 10:
+https://blog.netwrix.com/2019/08/06/data-security-compliance-essentials-only/
+
+The Basic of Data Security Regulations
+
+Nowadays, we are allowing tech companies taking out private information or data without permission. And cyber threats occur constantly as we see on news these days. This article describes about the fundamention of data security Regulations. There are some new compliance regulations are being proposed and enacted around data protection and data privacy. providing a set of rules and guildelines that help orgranizations protect their systems and data from security risks.
+https://ping58972.wordpress.com/2021/07/16/the-basic-of-data-security-regulations/
+
+Week 11:
+https://www.coursera.org/articles/popular-cybersecurity-certifications
+
+Introduction Top 10 Popular Cybersecurity Certifications
+
+I think our career on IT industry in the future may need some Certifications to enhance our resume to get a better job. So the certifications about Cybersecurity should be a good choice for us. This article introducts the top 10 of Cybersecurity Certifications that many companies prefer to get hire with. There are so many of certifications available, from general to vendor-specific, entry-level to advanced that will give us a competitive advantange in our career.
+
+https://ping58972.wordpress.com/2021/07/17/introduction-top-10-popular-cybersecurity-certifications/
+
+Week 12:
+https://preyproject.com/blog/en/three-laws-that-protect-students-online-data-and-privacy/
+Three Laws That Protect Student's Online Data and Privacy
+These days, people almost use Internet and online every time and every day. As students, we have to use Internet to research our studies. There are some laws that protect our online data and privacy. This article introduces to three laws that use for protect our liline data and privacy from controlling the privacy of student. In our generation, the rish of leaks increased, and the unwanted collection of data through unregulated online platfrom an software caused the need for smarter privacy laws. 
+https://ping58972.wordpress.com/2021/07/17/three-laws-that-protect-students-online-data-and-privacy/
+
+Week 13:
+https://cybriant.com/network-security-threats-and-solutions/
+Facts About Network Security Threats and Solutions
+As an enter level of programmer or computer science student, to understand what heppen about the network security threats and the basic of how to solve them when they occur, I believe it is every important skill and most companies would like to hire the employee recently. Link this article describes that lots of companies lost their money for cyber attack recently. And this article provides information about type of network security threats and series of attacks in which the hackers try to misuse the legitimate services.    
+https://ping58972.wordpress.com/2021/07/17/facts-about-network-security-threats-and-solutions/
+
+Week 14:
+https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams
+How To Avoid Phishing Attacks
+These days we use email or text messages a lot, and these communication technology could trick you into giving hackers or bad people your personal information. So we have to protect ourself, this article could help us to recognize and avoid some phishing scams like Phishing emails and text messages ofter tell a story to trick you into clicking on a link or opening an attachment. this email might look real but it's not. Phishing emails can have real consequences for people who give scammers their informatiion. And they can harm the reputation of the companies they are spoofing. So to solve this problem we have to add extra layers of protection and more detail steps that describes in the article.
+
+https://ping58972.wordpress.com/2021/07/18/how-to-avoid-phishing-attacks/
+
+
+
+

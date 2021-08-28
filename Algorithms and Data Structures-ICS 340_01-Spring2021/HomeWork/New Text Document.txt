@@ -1,0 +1,1 @@
+First,  we check the  Dominating Set D' of the graph G is vertex cover or not, and the runtime is polynomial time. then, we loop for each vertex in the Set D' for construct the new graph G' by add new edge and vertex to them . And the run time show be in O(V^2) for adding new edges, vertices, and checking them.  So this processing should run on polynomial time too.
