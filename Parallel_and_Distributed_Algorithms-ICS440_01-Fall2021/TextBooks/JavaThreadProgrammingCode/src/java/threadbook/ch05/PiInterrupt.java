@@ -5,25 +5,25 @@ public class PiInterrupt extends Object implements Runnable {
 
 	public void run() {
 		try {
-			System.out.println("for comparison, Math.PI=" + 
+			System.out.println("for comparison, Math.PI=" +
 								Math.PI);
-			calcPi(0.000000001);
-			System.out.println("within accuracy, latest pi=" + 
+			calcPi(0.0000000001);
+			System.out.println("within accuracy, latest pi=" +
 								latestPiEstimate);
 		} catch ( InterruptedException x ) {
-			System.out.println("INTERRUPTED!! latest pi=" + 
+			System.out.println("INTERRUPTED!! latest pi=" +
 								latestPiEstimate);
 		}
 	}
 
-	private void calcPi(double accuracy) 
+	private void calcPi(double accuracy)
 				throws InterruptedException {
 
 		latestPiEstimate = 0.0;
 		long iteration = 0;
 		int sign = -1;
 
-		while ( Math.abs(latestPiEstimate - Math.PI) > 
+		while ( Math.abs(latestPiEstimate - Math.PI) >
 				accuracy ) {
 
 			if ( Thread.interrupted() ) {
@@ -32,7 +32,7 @@ public class PiInterrupt extends Object implements Runnable {
 
 			iteration++;
 			sign = -sign;
-			latestPiEstimate += 
+			latestPiEstimate +=
 					sign * 4.0 / ( ( 2 * iteration ) - 1 );
 		}
 	}
