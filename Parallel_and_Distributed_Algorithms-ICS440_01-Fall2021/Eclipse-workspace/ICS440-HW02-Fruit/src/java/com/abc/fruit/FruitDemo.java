@@ -12,6 +12,7 @@ public class FruitDemo {
     /**
      * @param args
      */
+    @SuppressWarnings("unused")
     public static void main(String[] args) throws InterruptedException {
         new Fruit("Apple");
         new Fruit("Banana");
