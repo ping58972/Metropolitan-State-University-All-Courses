@@ -23,9 +23,13 @@ public class Sender {
 		Socket socket = null;
 		try {
 			// "192.168.1.13"
-			hostname = "127.0.0.1";
-			System.out.println(InetAddress.getLocalHost().toString());
-					//InetAddress.getLocalHost().toString();
+//			hostname = "127.0.0.1";
+			hostname = "192.168.1.22";
+//			hostname = "192.168.1.16";
+			InetAddress IP = InetAddress.getLocalHost();
+			
+			System.out.println( //IP.getHostAddress());
+					InetAddress.getLocalHost().toString());
 			socket = new Socket(hostname, 13);
 			System.out.println("connected!");
 			socket.setSoTimeout(5000);

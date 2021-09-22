@@ -6,6 +6,7 @@ package com.team3.tcp.solution1.server;
 import java.io.IOException;
 import java.io.Writer;
 import java.io.OutputStreamWriter;
+import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Date;
@@ -23,12 +24,14 @@ public class Receiver {
 	 */
 	public static void main(String[] args) {
 		try (ServerSocket server = new ServerSocket(PORT)) {
+			System.out.println( //IP.getHostAddress());
+					InetAddress.getLocalHost().toString());
 			while(true) {
 				try (Socket connection = server.accept()) {
 					
 					Writer out = new OutputStreamWriter(connection.getOutputStream());
 					Date now = new Date();
-					out.write(now.toString()+"\r\n"+"hahah");
+					out.write(now.toString()+"\r\n"+"From MacOS");
 					out.flush();
 					connection.close();
 				} catch (IOException ex) {}
