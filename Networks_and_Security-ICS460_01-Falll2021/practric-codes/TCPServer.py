@@ -1,5 +1,5 @@
 from socket import *
-serverName = 'servername'
+serverName = 'localhost'
 serverPort = 12000
 serverSocket = socket(AF_INET, SOCK_STREAM)
 serverSocket.bind(('', serverPort))
@@ -11,4 +11,3 @@ while True:
     capitalizedSentence = sentence.upper()
     connectionSocket.send(capitalizedSentence.encode())
     connectionSocket.close()
-    

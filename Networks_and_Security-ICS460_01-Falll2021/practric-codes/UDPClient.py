@@ -1,5 +1,6 @@
 from socket import *
-serverName = '192.168.1.13'
+# serverName = '192.168.1.13'
+serverName = 'localhost'
 # hostname = gethostname()
 # serverName = gethostbyname(hostname)
 serverPort = 12000
