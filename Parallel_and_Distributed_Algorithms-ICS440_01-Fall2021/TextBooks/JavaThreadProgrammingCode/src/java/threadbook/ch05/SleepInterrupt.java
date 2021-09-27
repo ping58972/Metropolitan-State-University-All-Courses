@@ -23,14 +23,16 @@ public class SleepInterrupt extends Object implements Runnable {
 		Thread t = new Thread(si);
 		t.start();
 
-		// Be sure that the new thread gets a chance to 
+		// Be sure that the new thread gets a chance to
 		// run for a while.
-		try { Thread.sleep(2000); } 
+		try { Thread.sleep(2000);
+		t.interrupt();
+		}
 		catch ( InterruptedException x ) { }
 
 		System.out.println(
 				"in main() - interrupting other thread");
-		t.interrupt();
+
 		System.out.println("in main() - leaving");
 	}
 }
