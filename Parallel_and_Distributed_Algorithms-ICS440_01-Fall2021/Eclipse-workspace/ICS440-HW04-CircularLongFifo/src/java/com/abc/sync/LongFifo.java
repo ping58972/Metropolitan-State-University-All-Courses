@@ -14,37 +14,33 @@ public interface LongFifo {
     void clear();
 
     /**
-     * Returns the maximum number of items which can be stored in this FIFO.
-     * This value never changes.
+     * Returns the maximum number of items which can be stored in this FIFO. This value never
+     * changes.
      */
     int getCapacity();
 
     /**
-     * Add if possible. If false is returned, the add was not possible (full).
-     * If true is returned, the add was successful.
+     * Add if possible. If false is returned, the add was not possible (full). If true is returned,
+     * the add was successful.
      */
     boolean add(long value);
 
     /**
-     * Removes and returns the next item if there is one.
-     * This method never returns null.
-     * Check the isValid() method of RemoveResult: if true, then the remove
-     * was successful. If false, the remove was not possible (empty).
+     * Removes and returns the next item if there is one. This method never returns null. Check the
+     * isValid() method of RemoveResult: if true, then the remove was successful. If false, the
+     * remove was not possible (empty).
      */
     RemoveResult remove();
 
     /**
-     * Returns a reference to use for synchronized blocks which need to
-     * call multiple methods without other threads being able to get in.
-     * Never returns null.
+     * Returns a reference to use for synchronized blocks which need to call multiple methods
+     * without other threads being able to get in. Never returns null.
      */
     Object getLockObject();
 
     /**
-     * Used to allow callers of {@link #remove()} to see if a value was actually
-     * removed or not.
-     * Check {@link #isValid()} and only call {@link #getValue()} if true.
-     * Instances are immutable.
+     * Used to allow callers of {@link #remove()} to see if a value was actually removed or not.
+     * Check {@link #isValid()} and only call {@link #getValue()} if true. Instances are immutable.
      */
     public static final class RemoveResult {
         /**
@@ -69,23 +65,22 @@ public interface LongFifo {
         }
 
         /**
-         * Returns true if {@link #getValue()} holds the value of the removed
-         * item. If false, then getValue() cannot be called - nothing was
-         * removed.
+         * Returns true if {@link #getValue()} holds the value of the removed item. If false, then
+         * getValue() cannot be called - nothing was removed.
          */
         public boolean isValid() {
             return valid;
         }
 
         /**
-         * Returns the value which was removed.
-         * Only call this method if {@link #isValid()} returns true.
+         * Returns the value which was removed. Only call this method if {@link #isValid()} returns
+         * true.
+         * 
          * @throws IllegalStateException if there is no valid value.
          */
         public long getValue() throws IllegalStateException {
-            if (!valid) {
-                throw new IllegalStateException(
-                    "invalid - cannot call getValue()");
+            if ( !valid) {
+                throw new IllegalStateException("invalid - cannot call getValue()");
             }
             return value;
         }

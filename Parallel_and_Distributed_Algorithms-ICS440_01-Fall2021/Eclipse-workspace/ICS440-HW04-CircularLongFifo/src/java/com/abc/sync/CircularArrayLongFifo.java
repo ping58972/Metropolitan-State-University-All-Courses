@@ -1,27 +1,25 @@
 package com.abc.sync;
 /**
- *@Author: Nalongsone Danddank
- *@Email: nalongsone.danddank@my.metrostate.edu
- *@StudentID: 14958950
- *@Assignment: ICS440-HW04-CircularLongFifo Fall2021
- *@Describe: First In First Out implement by a circular array long.
+ * @Author: Nalongsone Danddank
+ * @Email: nalongsone.danddank@my.metrostate.edu
+ * @StudentID: 14958950
+ * @Assignment: ICS440-HW04-CircularLongFifo Fall2021
+ * @Describe: First In First Out implement by a circular array long.
  */
 
 /**
  * Implementation of {@link LongFifo} which uses a circular array internally.
  * <p>
- * Look at the documentation in LongFifo to see how the methods are supposed to
- * work.
+ * Look at the documentation in LongFifo to see how the methods are supposed to work.
  * <p>
- * The data is stored in the slots array. count is the number of items currently
- * in the FIFO. When the FIFO is not empty, head is the index of the next item
- * to remove. When the FIFO is not full, tail is the index of the next available
- * slot to use for an added item. Both head and tail need to jump to index 0
- * when they "increment" past the last valid index of slots (this is what makes
- * it circular).
+ * The data is stored in the slots array. count is the number of items currently in the FIFO. When
+ * the FIFO is not empty, head is the index of the next item to remove. When the FIFO is not full,
+ * tail is the index of the next available slot to use for an added item. Both head and tail need to
+ * jump to index 0 when they "increment" past the last valid index of slots (this is what makes it
+ * circular).
  * <p>
- * See <a href="https://en.wikipedia.org/wiki/Circular_buffer">Circular Buffer
- * on Wikipedia</a> for more information.
+ * See <a href="https://en.wikipedia.org/wiki/Circular_buffer">Circular Buffer on Wikipedia</a> for
+ * more information.
  */
 public class CircularArrayLongFifo implements LongFifo {
     // do not change any of these fields:
@@ -32,11 +30,9 @@ public class CircularArrayLongFifo implements LongFifo {
     private final Object lockObject;
 
     // this constructor is correct as written - do not change
-    public CircularArrayLongFifo(int fixedCapacity,
-                                 Object proposedLockObject) {
+    public CircularArrayLongFifo(int fixedCapacity, Object proposedLockObject) {
 
-        lockObject =
-            proposedLockObject != null ? proposedLockObject : new Object();
+        lockObject = proposedLockObject != null ? proposedLockObject : new Object();
 
         slots = new long[fixedCapacity];
         head = 0;
@@ -52,21 +48,21 @@ public class CircularArrayLongFifo implements LongFifo {
     // this method is correct as written - do not change
     @Override
     public int getCount() {
-        synchronized ( lockObject ) {
+        synchronized (lockObject) {
             return count;
         }
     }
 
     @Override
     public boolean isEmpty() {
-        synchronized ( lockObject ) {
+        synchronized (lockObject) {
             return getCount() == 0;
         }
     }
 
     @Override
     public boolean isFull() {
-        synchronized ( lockObject ) {
+        synchronized (lockObject) {
             return getCount() == getCapacity();
         }
 
@@ -74,11 +70,11 @@ public class CircularArrayLongFifo implements LongFifo {
 
     @Override
     public void clear() {
-        synchronized ( lockObject ) {
-//            Arrays.fill(slots, 0);
-//            for(int i=0; i<slots.length; i++) {
-//                slots[i] = 0;
-//            }
+        synchronized (lockObject) {
+            // Arrays.fill(slots, 0);
+            // for(int i=0; i<slots.length; i++) {
+            // slots[i] = 0;
+            // }
             head = 0;
             tail = 0;
             count = 0;
@@ -88,20 +84,20 @@ public class CircularArrayLongFifo implements LongFifo {
 
     @Override
     public int getCapacity() {
-        synchronized ( lockObject ) {
-            return slots.length;
-        }
+        // synchronized ( lockObject ) {
+        return slots.length;
+        // }
 
     }
 
     @Override
     public boolean add(long value) {
-        synchronized ( lockObject ) {
-            if(isFull())
+        synchronized (lockObject) {
+            if (isFull())
                 return false;
             slots[head] = value;
             head = (head + 1) % slots.length;
-            count ++;
+            count++ ;
             return true;
         }
 
@@ -109,14 +105,15 @@ public class CircularArrayLongFifo implements LongFifo {
 
     @Override
     public LongFifo.RemoveResult remove() {
-        synchronized ( lockObject ) {
-            if(isEmpty()) {
+        synchronized (lockObject) {
+            if (isEmpty()) {
                 return LongFifo.RemoveResult.INVALID;
+
             }
             LongFifo.RemoveResult result = LongFifo.RemoveResult.createValid(slots[tail]);
             slots[tail] = 0;
-            tail = (tail +1) % slots.length;
-            count --;
+            tail = (tail + 1) % slots.length;
+            count-- ;
             return result;
         }
 
