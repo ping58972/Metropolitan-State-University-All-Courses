@@ -21,6 +21,8 @@ Email: nalongsone.danddank@my.metrostate.edu
         Start from any city you want, it really doesn’t matter which.  I start from the first city in the file because it’s easiest.  Create some Ham cycle.  Note that if you assign a very long “edge” between each pair of Nodes with no edge between them, as I suggest above, you are guaranteed to have some Ham cycle.
         Using the techniques of local search, try to find a better tour.
 
+Deliverable D Output:
+
 ![](img/DelivD_screenshot1.png?raw=true)
 ![](img/DelivD_screenshot2.png?raw=true)
 
@@ -39,7 +41,7 @@ Email: nalongsone.danddank@my.metrostate.edu
     Algorithm:
         The iterative deepening algorithm with depth first search is well described in the notes and in the Poole text, Chapter 3.
 
-Program C Output 1:
+Deliverable C Output 1:
 
     ~   val   A   B   C   D   E 
     A     ~   ~   3   2   ~   5
@@ -51,7 +53,7 @@ Program C Output 1:
 ![](img/Picture1.png?raw=true)
 
 
-Program C Output3:
+Deliverable C Output 3:
 
     ~          val    A    B    C    T    D    L    X    M    N    F    S    W
     Atlanta      ~    ~    ~  581  725    ~    ~  608    ~    ~    ~    ~  538
@@ -71,18 +73,15 @@ Program C Output3:
 
 ### ICS 340 Programming Project, Deliverable B
     Specification:	
-        Start with your (ideally working) submission of Deliverable A.  Read a file of the name “F[<whatever>]b.txt.  This is a file of distances between cities.  It’s a symmetrical complete graph; there is a distance listed between each pair of cities, and the distance from city A to city B is the same as the distance from city B to city A. Enhance this program to find the shortest bitonic tour of the cities.
+        Read a file of the name “F[<whatever>]b.txt.  This is a file of distances between cities.  It’s a symmetrical complete graph; there is a distance listed between each pair of cities, and the distance from city A to city B is the same as the distance from city B to city A. Enhance this program to find the shortest bitonic tour of the cities.
         A bitonic tour of cities traditionally starts at the westernmost city, goes strictly east to the easternmost city (passing through zero or more intermediate cities on the way) and returns to the westernmost city, picking up any cities not visited on the way out, going strictly east to west.  Of course, a bitonic tour could also start at the southernmost, easternmost, or northernmost city.  
         The “val” field lists a floating point number that indicates either the latitude or longitude of the city.  Start at the city with the highest number, go by decreasing numbers to the city with the lowest number, and then go back by increasing numbers through all unvisited cities to the city with the highest number.  (This will turn out to be going from westeastwest or northsouthnorth, depending on the file.)
-        Output the distance of the shortest bitonic tour, and the order of cities in the tour.  Note that most of the points will be for outputting the correct distance, and fewer points will be for the harder problem of listing the cities.  Note that in each case there are two shortest tours, and they are the mirror images of each other.  Either is worth full credit.
-        The “prog340” handout describes the format of the input file for this and all program deliverables.
-        As will always be the case in this class, the program must be written in Java and must run on the University Windows computer systems.  To ensure this I strongly recommend that you:
-            1.Use only Oracle Java 13 SE and earlier constructs, and 
-            2.Test it on the University systems before submission if you have any doubts about its ability to run on the University Windows.  
-        Submit the Java source code to the open Deliverable A submission folder. You may submit either the source code or a full Eclipse package.
+        Output the distance of the shortest bitonic tour, and the order of cities in the tour. 
+        
     Algorithm:
-        The algorithm for the bitonic tour is well known.  I have uploaded two files that describe the algorithm.  They are the PDFs “bitonic_tsp” and “BitonicTour Paper”.  You may use either one of them as the basis for your building of the algorithm.
+        The algorithm for the bitonic tour is well known. 
 
+Deliverable B Output:
 
 ![](img/DelivB_screenshot1.png?raw=true)
 
