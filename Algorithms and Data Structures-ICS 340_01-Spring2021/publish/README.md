@@ -80,6 +80,9 @@ Submit the Java source code to the open Deliverable A submission folder. You may
 Algorithm:
 The algorithm for the bitonic tour is well known.  I have uploaded two files that describe the algorithm.  They are the PDFs “bitonic_tsp” and “BitonicTour Paper”.  You may use either one of them as the basis for your building of the algorithm.
 
+
 ![Figure 1-1](DelivB_screenshot1.png?raw=true)
+
 ![Figure 1-1](DelivB_screenshot2.png?raw=true)
+
 ![Figure 1-1](DelivB_screenshot3.png?raw=true)
