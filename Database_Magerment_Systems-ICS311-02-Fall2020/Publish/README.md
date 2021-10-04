@@ -1,6 +1,13 @@
 #### Nalongsone Danddank	Student ID :�14958950	StarID: jf3893pd
 #### Email: nalongsone.danddank@my.metrostate.edu
 #### Metropolitan State University
+	
+# Restuarant Database Management
+
+	| Java Swing | MySQL | JDBC |
+	
+	Computer Science major class: ICS 311 — Database Implementation on MySQL by Java and JDBC
+         
 #### ICS 311 � Database Implementation on MySQL
 
 	Github: https://github.com/ping58972/ICS311_restuarantAPP
@@ -101,20 +108,21 @@
 
 
 ### Screenshots:
-![](step2_1.png)
-![](1.PNG)
-![](2.PNG)
-![](3.PNG)
-![](4.PNG)
-![](5.PNG)
-![](6.PNG)
-![](7.PNG)
-![](8.PNG)
-![](9.PNG)
-![](10.PNG)
-![](11.PNG)
-![](12.PNG)
-![](13.PNG)
+![](img/mysql.png)
+![](img/step2_1.png)
+![](img/1.PNG)
+![](img/2.PNG)
+![](img/3.PNG)
+![](img/4.PNG)
+![](img/5.PNG)
+![](img/6.PNG)
+![](img/7.PNG)
+![](img/8.PNG)
+![](img/9.PNG)
+![](img/10.PNG)
+![](img/11.PNG)
+![](img/12.PNG)
+![](img/13.PNG)
 
 	
 
