@@ -1,0 +1,13 @@
+~          val  Atl  Bos  Chi  Dal  Den   LA  Mia  Min   NY   SF  Sea  Was
+Atlanta      ~    ~    ~    ~  725    ~    ~  608    ~    ~    ~    ~  538
+Boston       G    ~    ~  859    ~    ~    ~ 1285 1127  207    ~    ~    ~
+Chicago      ~  581  859    ~  803  928    ~    ~  354  718    ~    ~  601
+Dallas       ~  725    ~  803    ~  667 1248 1116  851    ~    ~    ~    ~
+Denver       ~    ~    ~  928  667    ~  812    ~  697    ~  957 1033    ~
+LosAngeles   S    ~    ~    ~ 1248  812    ~    ~    ~    ~  313  923    ~
+Miami        ~  608 1285    ~ 1116    ~    ~    ~    ~ 1097    ~    ~    ~
+Minneapolis  ~    ~ 1127  354  851  697    ~    ~    ~    ~    ~ 1415    ~
+NewYork      ~    ~  207  718    ~    ~    ~ 1097    ~    ~    ~    ~  213
+SanFrancisco ~    ~    ~    ~    ~  957  313    ~    ~    ~    ~  691    ~
+Seattle      ~    ~    ~    ~    ~ 1033  923    ~ 1415    ~  691    ~    ~
+Washington   ~  538    ~  601    ~    ~    ~    ~    ~  213    ~    ~    ~
