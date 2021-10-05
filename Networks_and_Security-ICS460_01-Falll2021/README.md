@@ -1,6 +1,5 @@
 ICS 460-01 Networks and Security Fall 2021.
 
-Damodar Chetty is inviting you to a scheduled Zoom meeting.
 
 Topic: ICS 460 - 01
 Time: Aug 26, 2021 06:00 PM Central Time (US and Canada)
