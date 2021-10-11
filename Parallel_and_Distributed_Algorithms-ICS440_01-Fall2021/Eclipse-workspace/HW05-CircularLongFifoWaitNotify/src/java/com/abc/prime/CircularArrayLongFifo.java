@@ -72,6 +72,8 @@ public class CircularArrayLongFifo implements LongFifo {
             head = 0;
             tail = 0;
             count = 0;
+          //My work is here -->
+            lockObject.notifyAll();
         }
     }
 
@@ -82,14 +84,28 @@ public class CircularArrayLongFifo implements LongFifo {
 
     @Override
     public void add(long value) throws InterruptedException {
-//        slots[tail] = value;
-//        count++;
-//        tail++;
+        //My work is here -->
+        synchronized ( lockObject ) {
+            while(isFull()) lockObject.wait();
+            slots[head] = value;
+            head = (head + 1)% slots.length;
+            count++;
+            lockObject.notifyAll();
+        }
     }
 
     @Override
     public long remove() throws InterruptedException {
-        return 0L;
+      //My work is here -->
+        synchronized ( lockObject ) {
+            while(isEmpty()) lockObject.wait();
+            long value = slots[tail];
+            slots[tail] = 0;
+            tail = (tail + 1)% slots.length;
+            count--;
+            lockObject.notifyAll();
+            return value;
+        }
     }
 
     // this method is correct as written - do not change

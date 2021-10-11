@@ -18,8 +18,8 @@ public class PrimeMain {
         System.out.println("DONE loading up candidate fifo...");
 
         new PrimeChecker(candidateFifo, primeFifo);
-        //new PrimeChecker(candidateFifo, primeFifo);
-        //new PrimeChecker(candidateFifo, primeFifo);
+        new PrimeChecker(candidateFifo, primeFifo);
+        new PrimeChecker(candidateFifo, primeFifo);
 
         new PrimePrinter(primeFifo);
     }
