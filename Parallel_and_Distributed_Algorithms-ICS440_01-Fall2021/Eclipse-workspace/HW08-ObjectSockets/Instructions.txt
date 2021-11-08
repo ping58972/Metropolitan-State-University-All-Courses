@@ -1,0 +1,9 @@
+Object Sockets Lab
+================
+1. Edit StringCalcClient adding code at the points marked with TODO.
+2. Edit StringCalcServer adding code at the points marked with TODO.
+3. Run StringCalcTest to validate your code.
+4. Use the writeObject(Object obj) method on ObjectOutputStream to send a 
+   request (or a response) over the OutputStream of the Socket.
+5. Use the readObject() method on ObjectInputStream to receive a request (or a
+   response) from the InputStream of the Socket.

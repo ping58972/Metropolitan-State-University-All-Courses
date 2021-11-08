@@ -1,0 +1,200 @@
+00:00:00.000|main    |Starting regression for: com.abc.stringcalc.test.StringCalcTest
+00:00:00.004|main    |Attempting to startup StringCalcServer...
+00:00:01.006|main    |Attempting to startup StringCalcClient...
+00:00:01.026|main    |Testing clientA...
+00:00:01.026|main    |==== in testCalculate() ====
+00:00:01.026|main    |   ignoreNulls=true
+00:00:01.028|main    |Strings used:
+00:00:01.028|main    |  s.length=4
+00:00:01.029|main    |  s[0] = "a"
+00:00:01.029|main    |  s[1] = "ab"
+00:00:01.029|main    |  s[2] = "abc"
+00:00:01.029|main    |  s[3] = "abcd"
+00:00:01.065|main    |Validating the response
+00:00:01.065|main    | PASS:   getTotalLength()= [result=10, expected=10]
+00:00:01.065|main    | PASS:   getMinLength()= [result=1, expected=1]
+00:00:01.065|main    | PASS:   getMaxLength()= [result=4, expected=4]
+00:00:01.067|main    | PASS:   getAverageLength()= [result=2.5, expected=2.5, tolerance=0.001]
+00:00:01.067|main    | PASS:   getCount()= [result=4, expected=4]
+00:00:01.068|main    |Attempting to startup StringCalcClient...
+00:00:01.072|main    |Testing clientB...
+00:00:01.072|main    |==== in testCalculate() ====
+00:00:01.072|main    |   ignoreNulls=true
+00:00:01.072|main    |Strings used:
+00:00:01.072|main    |  s.length=4
+00:00:01.072|main    |  s[0] = "a"
+00:00:01.072|main    |  s[1] = "ab"
+00:00:01.072|main    |  s[2] = "abc"
+00:00:01.072|main    |  s[3] = "abcd"
+00:00:01.073|main    |Validating the response
+00:00:01.073|main    | PASS:   getTotalLength()= [result=10, expected=10]
+00:00:01.074|main    | PASS:   getMinLength()= [result=1, expected=1]
+00:00:01.074|main    | PASS:   getMaxLength()= [result=4, expected=4]
+00:00:01.074|main    | PASS:   getAverageLength()= [result=2.5, expected=2.5, tolerance=0.001]
+00:00:01.074|main    | PASS:   getCount()= [result=4, expected=4]
+00:00:01.074|main    |Confirming that after starting clientB, clientA still works...
+00:00:01.074|main    |==== in testCalculate() ====
+00:00:01.074|main    |   ignoreNulls=true
+00:00:01.074|main    |Strings used:
+00:00:01.074|main    |  s.length=4
+00:00:01.074|main    |  s[0] = "a"
+00:00:01.074|main    |  s[1] = "ab"
+00:00:01.074|main    |  s[2] = "abc"
+00:00:01.074|main    |  s[3] = "abcd"
+00:00:01.075|main    |Validating the response
+00:00:01.075|main    | PASS:   getTotalLength()= [result=10, expected=10]
+00:00:01.075|main    | PASS:   getMinLength()= [result=1, expected=1]
+00:00:01.075|main    | PASS:   getMaxLength()= [result=4, expected=4]
+00:00:01.075|main    | PASS:   getAverageLength()= [result=2.5, expected=2.5, tolerance=0.001]
+00:00:01.075|main    | PASS:   getCount()= [result=4, expected=4]
+00:00:01.076|main    |Confirming that clientB still works...
+00:00:01.076|main    |==== in testCalculate() ====
+00:00:01.076|main    |   ignoreNulls=true
+00:00:01.076|main    |Strings used:
+00:00:01.076|main    |  s.length=4
+00:00:01.076|main    |  s[0] = "a"
+00:00:01.076|main    |  s[1] = "ab"
+00:00:01.076|main    |  s[2] = "abc"
+00:00:01.076|main    |  s[3] = "abcd"
+00:00:01.076|main    |Validating the response
+00:00:01.076|main    | PASS:   getTotalLength()= [result=10, expected=10]
+00:00:01.076|main    | PASS:   getMinLength()= [result=1, expected=1]
+00:00:01.076|main    | PASS:   getMaxLength()= [result=4, expected=4]
+00:00:01.077|main    | PASS:   getAverageLength()= [result=2.5, expected=2.5, tolerance=0.001]
+00:00:01.077|main    | PASS:   getCount()= [result=4, expected=4]
+00:00:01.077|main    |Disconnecting clientA...
+00:00:01.091|main    |Confirming that after disconnecting clientA, clientB still works...
+00:00:01.091|main    |==== in testCalculate() ====
+00:00:01.091|main    |   ignoreNulls=true
+00:00:01.091|main    |Strings used:
+00:00:01.091|main    |  s.length=4
+00:00:01.092|main    |  s[0] = "a"
+00:00:01.092|main    |  s[1] = "ab"
+00:00:01.092|main    |  s[2] = "abc"
+00:00:01.092|main    |  s[3] = "abcd"
+00:00:01.092|main    |Validating the response
+00:00:01.093|main    | PASS:   getTotalLength()= [result=10, expected=10]
+00:00:01.093|main    | PASS:   getMinLength()= [result=1, expected=1]
+00:00:01.093|main    | PASS:   getMaxLength()= [result=4, expected=4]
+00:00:01.093|main    | PASS:   getAverageLength()= [result=2.5, expected=2.5, tolerance=0.001]
+00:00:01.093|main    | PASS:   getCount()= [result=4, expected=4]
+00:00:01.093|main    |==== in testCalculate() ====
+00:00:01.093|main    |   ignoreNulls=true
+00:00:01.093|main    |Strings used:
+00:00:01.093|main    |  s.length=10
+00:00:01.094|main    |  s[0] = "Hello!"
+00:00:01.094|main    |  s[1] = "calculating"
+00:00:01.094|main    |  s[2] = "lengths"
+00:00:01.094|main    |  s[3] = null
+00:00:01.094|main    |  s[4] = "of"
+00:00:01.094|main    |  s[5] = "strings"
+00:00:01.094|main    |  s[6] = "is"
+00:00:01.094|main    |  s[7] = null
+00:00:01.094|main    |  s[8] = "fun"
+00:00:01.095|main    |  s[9] = null
+00:00:01.095|main    |Validating the response
+00:00:01.095|main    | PASS:   getTotalLength()= [result=38, expected=38]
+00:00:01.096|main    | PASS:   getMinLength()= [result=2, expected=2]
+00:00:01.096|main    | PASS:   getMaxLength()= [result=11, expected=11]
+00:00:01.096|main    | PASS:   getAverageLength()= [result=5.428571428571429, expected=5.428571428571429, tolerance=0.001]
+00:00:01.096|main    | PASS:   getCount()= [result=7, expected=7]
+00:00:01.096|main    |==== in testCalculate() ====
+00:00:01.096|main    |   ignoreNulls=false
+00:00:01.096|main    |Strings used:
+00:00:01.096|main    |  s.length=10
+00:00:01.097|main    |  s[0] = "Hello!"
+00:00:01.097|main    |  s[1] = "calculating"
+00:00:01.097|main    |  s[2] = "lengths"
+00:00:01.097|main    |  s[3] = null
+00:00:01.097|main    |  s[4] = "of"
+00:00:01.097|main    |  s[5] = "strings"
+00:00:01.097|main    |  s[6] = "is"
+00:00:01.097|main    |  s[7] = null
+00:00:01.097|main    |  s[8] = "fun"
+00:00:01.097|main    |  s[9] = null
+00:00:01.098|main    |Validating the response
+00:00:01.098|main    | PASS:   getTotalLength()= [result=38, expected=38]
+00:00:01.098|main    | PASS:   getMinLength()= [result=0, expected=0]
+00:00:01.099|main    | PASS:   getMaxLength()= [result=11, expected=11]
+00:00:01.099|main    | PASS:   getAverageLength()= [result=3.8, expected=3.8, tolerance=0.001]
+00:00:01.099|main    | PASS:   getCount()= [result=10, expected=10]
+00:00:01.100|main    |==== in testCalculate() ====
+00:00:01.100|main    |   ignoreNulls=true
+00:00:01.100|main    |Strings used:
+00:00:01.100|main    |  s.length=0
+00:00:01.103|main    |Validating the response
+00:00:01.103|main    | PASS:   getTotalLength()= [result=0, expected=0]
+00:00:01.103|main    | PASS:   getMinLength()= [result=0, expected=0]
+00:00:01.103|main    | PASS:   getMaxLength()= [result=0, expected=0]
+00:00:01.103|main    | PASS:   getAverageLength()= [result=0.0, expected=0.0, tolerance=0.001]
+00:00:01.104|main    | PASS:   getCount()= [result=0, expected=0]
+00:00:01.104|main    |==== in testCalculate() ====
+00:00:01.104|main    |   ignoreNulls=true
+00:00:01.104|main    |Strings used:
+00:00:01.104|main    |  null reference passed in
+00:00:01.105|main    |Validating the response
+00:00:01.105|main    | PASS:   getTotalLength()= [result=0, expected=0]
+00:00:01.105|main    | PASS:   getMinLength()= [result=0, expected=0]
+00:00:01.105|main    | PASS:   getMaxLength()= [result=0, expected=0]
+00:00:01.106|main    | PASS:   getAverageLength()= [result=0.0, expected=0.0, tolerance=0.001]
+00:00:01.106|main    | PASS:   getCount()= [result=0, expected=0]
+00:00:01.107|main    |==== in testCalculate() ====
+00:00:01.107|main    |   ignoreNulls=true
+00:00:01.108|main    |Strings used:
+00:00:01.108|main    |  s.length=3
+00:00:01.108|main    |  s[0] = null
+00:00:01.108|main    |  s[1] = null
+00:00:01.108|main    |  s[2] = null
+00:00:01.109|main    |Validating the response
+00:00:01.109|main    | PASS:   getTotalLength()= [result=0, expected=0]
+00:00:01.109|main    | PASS:   getMinLength()= [result=0, expected=0]
+00:00:01.110|main    | PASS:   getMaxLength()= [result=0, expected=0]
+00:00:01.110|main    | PASS:   getAverageLength()= [result=0.0, expected=0.0, tolerance=0.001]
+00:00:01.110|main    | PASS:   getCount()= [result=0, expected=0]
+00:00:01.110|main    |==== in testCalculate() ====
+00:00:01.110|main    |   ignoreNulls=false
+00:00:01.110|main    |Strings used:
+00:00:01.110|main    |  s.length=3
+00:00:01.111|main    |  s[0] = null
+00:00:01.111|main    |  s[1] = null
+00:00:01.111|main    |  s[2] = null
+00:00:01.112|main    |Validating the response
+00:00:01.112|main    | PASS:   getTotalLength()= [result=0, expected=0]
+00:00:01.112|main    | PASS:   getMinLength()= [result=0, expected=0]
+00:00:01.112|main    | PASS:   getMaxLength()= [result=0, expected=0]
+00:00:01.112|main    | PASS:   getAverageLength()= [result=0.0, expected=0.0, tolerance=0.001]
+00:00:01.113|main    | PASS:   getCount()= [result=3, expected=3]
+00:00:01.113|main    |==== in testCalculate() ====
+00:00:01.113|main    |   ignoreNulls=true
+00:00:01.113|main    |Strings used:
+00:00:01.113|main    |  s.length=4
+00:00:01.113|main    |  s[0] = ""
+00:00:01.113|main    |  s[1] = "abcdef"
+00:00:01.113|main    |  s[2] = ""
+00:00:01.113|main    |  s[3] = null
+00:00:01.114|main    |Validating the response
+00:00:01.114|main    | PASS:   getTotalLength()= [result=6, expected=6]
+00:00:01.114|main    | PASS:   getMinLength()= [result=0, expected=0]
+00:00:01.114|main    | PASS:   getMaxLength()= [result=6, expected=6]
+00:00:01.115|main    | PASS:   getAverageLength()= [result=2.0, expected=2.0, tolerance=0.001]
+00:00:01.115|main    | PASS:   getCount()= [result=3, expected=3]
+00:00:01.115|main    |==== in testCalculate() ====
+00:00:01.115|main    |   ignoreNulls=false
+00:00:01.115|main    |Strings used:
+00:00:01.115|main    |  s.length=4
+00:00:01.115|main    |  s[0] = ""
+00:00:01.116|main    |  s[1] = "abcdef"
+00:00:01.116|main    |  s[2] = ""
+00:00:01.116|main    |  s[3] = null
+00:00:01.118|main    |Validating the response
+00:00:01.119|main    | PASS:   getTotalLength()= [result=6, expected=6]
+00:00:01.119|main    | PASS:   getMinLength()= [result=0, expected=0]
+00:00:01.119|main    | PASS:   getMaxLength()= [result=6, expected=6]
+00:00:01.119|main    | PASS:   getAverageLength()= [result=1.5, expected=1.5, tolerance=0.001]
+00:00:01.119|main    | PASS:   getCount()= [result=4, expected=4]
+00:00:01.120|main    |Disconnecting clientB...
+00:00:01.122|main    |Finished regression for: 
+00:00:01.122|main    |    com.abc.stringcalc.test.StringCalcTest
+00:00:01.122|main    |Done with 65 regression tests, duration: 00:00:01.122
+00:00:01.122|main    |Failure count = 0
+
