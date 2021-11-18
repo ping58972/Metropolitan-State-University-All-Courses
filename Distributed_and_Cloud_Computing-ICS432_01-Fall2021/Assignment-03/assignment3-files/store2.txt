@@ -1,0 +1,18 @@
+2002,Soft Boot,70
+1001,Zip Bag,100
+1004,Big Helmet,40
+3002,Knife,60
+2004,Strongster Harness,20
+6006,Hi-Tent,250
+2001,Stove,80
+9009,Reli-Rope,30
+3001,Pad,25
+2003,Soft-L Jacket,35
+8008,Pedals,20
+1003,Full Charger,125
+2009,Umbrella,70
+1009,Small Helmet,40
+3003,Soft Sock,15
+4004,Hard Boot,90
+1002,Harness,150
+2008,Boot,70

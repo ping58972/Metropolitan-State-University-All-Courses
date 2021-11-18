@@ -1,0 +1,17 @@
+1001,Zip Bag,100
+7007,Tech GPS,300
+1003,Full Charger,125
+3004,Big Tire,30
+3001,Pad,25
+4009,Stand,90
+1004,Big Helmet,40
+1002,Harness,150
+2001,Stove,80
+2002,Soft Boot,70
+5005,Tent,150
+3003,Soft Sock,15
+4004,Hard Boot,90
+2008,Boot,70
+3008,Small Tire,30
+3002,Knife,60
+6006,Hi-Tent,250

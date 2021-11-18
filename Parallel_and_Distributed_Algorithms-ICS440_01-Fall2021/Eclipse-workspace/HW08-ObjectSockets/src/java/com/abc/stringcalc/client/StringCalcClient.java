@@ -5,6 +5,7 @@ import java.net.*;
 
 import com.abc.stringcalc.dto.*;
 import com.abc.stringcalc.util.*;
+import com.programix.io.*;
 
 public class StringCalcClient {
     private Socket socket;
@@ -21,10 +22,11 @@ public class StringCalcClient {
         //
         // TODO - Create socket and object streams...
         socket = new Socket(hostname, port);
-
+        ois = new ObjectInputStream(socket.getInputStream());
         log.outln("Attempting to create ObjectOutputStream");
 
         oos = new ObjectOutputStream(socket.getOutputStream());
+        oos.flush();
         StringCalcRequest request = new StringCalcRequest();
         String[] dataStrings = { "z", "yuy", "ha" };
         request.setData(dataStrings);
@@ -56,15 +58,16 @@ public class StringCalcClient {
         Object obj = ois.readObject();
         if (obj instanceof DisconnectResponse) {
             log.outln("Client disconnect complete.");
-            if (socket != null) {
-                try {
-                    socket.close();
-                    oos.close();
-                    ois.close();
-                } catch (Exception x) {
-                    // TODO: handle exception
-                }
-            }
+            IOTools.closeQuietly(socket, ois, oos);
+            // if (socket != null) {
+            // try {
+            // socket.close();
+            // oos.close();
+            // ois.close();
+            // } catch (Exception x) {
+            // // TODO: handle exception
+            // }
+            // }
         }
 
     }

@@ -27,6 +27,7 @@ public class StringCalcServer {
     }
 
     private void runWork() {
+
         try {
             log.outln("StringCalcServer ready on port: " + ss.getLocalPort());
 
@@ -39,6 +40,8 @@ public class StringCalcServer {
                 //
                 Socket sock = ss.accept();
                 Session ses = new Session(sock, count);
+                // Thread thread = new Thread(ses);
+                // thread.start();
             }
         } catch (Exception x) {
             log.out(x);
@@ -46,6 +49,7 @@ public class StringCalcServer {
             IOTools.closeQuietly(ss);
             log.outln("StringCalcServer exiting.");
         }
+
     }
 
     private class Session implements Runnable {
@@ -73,17 +77,19 @@ public class StringCalcServer {
             // TODO - Setup object streams with the client.
             //
 
-            while (true) {
-                try {
-                    log.outln("Attempting to create ObjectInputStream");
-                    ois = new ObjectInputStream(sock.getInputStream());
-                    log.outln("Attempting to create ObjectOutputStream");
-                    oos = new ObjectOutputStream(sock.getOutputStream());
-                    //
-                    // TODO - Receive client requests, process, and send the
-                    // responses. If a DisconnectRequest is received
-                    // prepare for a graceful shutdown.
-                    //
+            // while (true) {
+            try {
+
+                log.outln("Attempting to create ObjectInputStream");
+                ois = new ObjectInputStream(sock.getInputStream());
+                oos = new ObjectOutputStream(sock.getOutputStream());
+                oos.flush();
+                //
+                // TODO - Receive client requests, process, and send the
+                // responses. If a DisconnectRequest is received
+                // prepare for a graceful shutdown.
+                //
+                while (true) {
                     Object obj = ois.readObject();
                     if (obj instanceof StringCalcRequest) {
                         StringCalcRequest req = (StringCalcRequest) obj;
@@ -92,32 +98,35 @@ public class StringCalcServer {
 
                         oos.writeObject(res);
                         oos.flush();
-                        System.out.println("server line :88 " + res.getAverageLength());
+                        // System.out.println("server line :88 " + res.getAverageLength());
                     } else if (obj instanceof DisconnectRequest) {
                         oos.writeObject(new DisconnectResponse());
                         oos.flush();
 
                         break;
                     }
-                    Thread.sleep(100);
-
-                } catch (IOException | ClassNotFoundException | InterruptedException x) {
-                    // TODO: handle exception
-                    x.printStackTrace();
-                } finally {
-                    // TODO - cleanup
-                    log.outln("Completed conversation #" + id);
-                    if (sock != null) {
-                        try {
-                            sock.close();
-                            oos.close();
-                            ois.close();
-                        } catch (Exception x) {
-                            // TODO: handle exception
-                        }
-                    }
                 }
+
+                // Thread.sleep(100);
+
+            } catch (IOException | ClassNotFoundException x) {
+                // TODO: handle exception
+                x.printStackTrace();
+            } finally {
+                // TODO - cleanup
+                log.outln("Completed conversation #" + id);
+                IOTools.closeQuietly(sock, ois, oos);
+                // if (sock != null) {
+                // try {
+                // sock.close();
+                // oos.close();
+                // ois.close();
+                // } catch (Exception x) {
+                // // TODO: handle exception
+                // }
+                // }
             }
+            // }
 
         }
 

@@ -1,0 +1,7 @@
+Quiz #3
+- deadlock
+- Amhahl's Law
+- Immutable objects
+- Reader/Writer
+- Java I/O
+- code: waiting with a timeout
