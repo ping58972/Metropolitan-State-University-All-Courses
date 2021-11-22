@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "danddank-homework4",
+  "private_key_id": "dc4235f0a9357fa21fbe248f5d64eef5eea2d3db",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC94lO1oVXF+Q0X\npt4nW9PHbvT8S0KD9471DSkTNbwltIk5duq7EPi+Jitk/9hIBeZhFoCcycJ9Jjhj\nAxIOurNQ+16J3Z9wr1iqNMTHfDTzPJX/11adF4/mWdt/JI7GmjBG237OcuA77+3Z\nc9q6kCsrYDvIjdF40qFBOLNT8xmKPCsVyxwZPZswzsub080Zl5Oros0JdR2B7Zgc\ntPLHZ48h7bZ/GfpyMtV6Gtp2/DA+Q2IGVnb2HxK2eKgxEMNw96Iwin3Ez3TH7KyS\nh1lIKzbVIRYfMixB1xt1qRpRFOoLuLtcnaH0FfUfo+OH1JQoGfLC0c10mhuX0h5z\nyVUOUw5RAgMBAAECggEAFhA5R86CR+mjYs8p2wrpda/n2XTpOqpGOyUXU7sXrI3o\nr/uoVKopLPcEbczolZ3R4hAaS52J8r7BKIgPzhRVh6BdoMlWoGJPfB97ie5dvLGa\ngErGLqSxPMPOJFzcFimOWH1io5xnf69mRLEYhjsAOR8Kc0g/Qbm/sPNkqumBWzVl\nFfNVUsh27JzambM32R1YMofDu+yanuFAv8/MJSl3kUiL7esiOetH6FyCrX9AlU8X\nudHDXuZ6tIzipeCd/cHWeix5xT8D6lVSnrQUeKl2tJ/0vdhuRVodAyKF4zo2WdaF\nqGqds6qLvB3KfzTWMdI4rgaehtplrBdUWShfUa8wEQKBgQDy5uTa2WVFbHT7tP81\noaWnDLKNkmhq4EK8MkMhqXjIrOvJ7b2vmGYl/rGLljmq0kZF/6fLdzS47cFHCJT0\nZQWnr5dtsjSWMxTF9X+dtoSocTYcPeC92fcrFeTfB2preWdKp5HsQRESDr0l0ZD2\ny1UgkK1S4Nt9ZKFNVYNCggxfDQKBgQDIH4477xGHYmVV/BVBBpzcUgWnUjFsfQc4\nQwr7NTWVYiThJ92U8Vk/YOgLz2G7j7OnPZjyRc3BU3iTH0wKzn9eC7m/B4StHioQ\ngBhmueS0ChGXN+lyg7KK6DQT1CsQM9KVWk1LUql3bth3asfjMruGlLvOzr8axXZB\nsCaoR627VQKBgQDRCnawBWHLUmCG8qikLj5SunG7tuFYATJNpm/xu1iwU2kEui6B\nvQVD86I2gA2W/inuOevdBfUApdStXixa+8nXGx2WEUSCcumQyAuQ3i/iirPHsFUG\n7ltx4AC9FDO41J1ZOUcy7HhVcwvDTUyVqD3Vrc0MQ2mBy6Wp2UsCZMtizQKBgFFV\n4e0iATHRH/aOeeTv1xkEjR+wHD5HooOPXAs1WQ3Z0bthBIHghbFopWcHZmVgxleW\nhW8SR8nnLv48nh9WRhXnFhs55walV9tU9JXrv7Qc04FuTAcq14n1ThUxCj+PkGr7\nRKb0dcQA3SHL2GnS2Lyd/qbTCIDM+H9CJLQITefxAoGAEYsqwgWwAME9MqeWdjBn\nYkYHkn59YBIcSBx3mh85O4PoW0Bjxq6naFeOaRPpImpVTxwK37AkXqC/0ZQLW1FC\nNxqYEaDtuVlASqAyAqzJiAwkJZVO2PvFCLPDx649E++jUGbBQAjF5cp9+YkEVlsl\nS8m9N1xxMJ0bDHfZ1e+QwjE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "danddankhomework4serviceaccoun@danddank-homework4.iam.gserviceaccount.com",
+  "client_id": "106096234121922147258",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/danddankhomework4serviceaccoun%40danddank-homework4.iam.gserviceaccount.com"
+}
