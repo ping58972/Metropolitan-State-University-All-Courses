@@ -6,8 +6,7 @@ public class Counter {
     private long count;
     private final Mutex mutex;
 
-    public Counter(long initialCount,
-                   Mutex mutex) {
+    public Counter(long initialCount, Mutex mutex) {
 
         count = initialCount;
         this.mutex = mutex;
@@ -27,7 +26,7 @@ public class Counter {
         // lock-try-finally-unlock
         mutex.lock();
         try {
-            count++;  // read, add, write
+            count++ ; // read, add, write
         } finally {
             mutex.unlock();
         }
@@ -38,7 +37,7 @@ public class Counter {
         mutex.lock();
         try {
             long c = count;
-            count++;
+            count++ ;
             return c;
         } finally {
             mutex.unlock();
@@ -49,9 +48,9 @@ public class Counter {
         // lock-try-finally-unlock
         mutex.lock();
         try {
-            long c = count;
+            long c = getCount();
             ThreadTools.nap(msToRun);
-            count++;
+            count++ ;
             return c;
         } finally {
             mutex.unlock();

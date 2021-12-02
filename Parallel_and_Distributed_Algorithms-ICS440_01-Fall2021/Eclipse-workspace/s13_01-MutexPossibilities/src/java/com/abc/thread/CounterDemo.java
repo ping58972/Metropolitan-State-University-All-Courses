@@ -16,10 +16,10 @@ public class CounterDemo {
     }
 
     public static void main(String[] args) {
-//        demoWithMutex(new SyncCheatMutex());
-//        demoWithMutex(new PetersonMutex());
-//        demoWithMutex(new TestAndSetMutex());
-//        demoWithMutex(new CompareAndSwapUsingTASReentrantMutex());
+        // demoWithMutex(new SyncCheatMutex());
+        // demoWithMutex(new PetersonMutex());
+        // demoWithMutex(new TestAndSetMutex());
+        // demoWithMutex(new CompareAndSwapUsingTASReentrantMutex());
         demoWithMutex(new CompareAndSwapReentrantMutex());
     }
 
@@ -59,5 +59,5 @@ public class CounterDemo {
             keepRunning = false;
             internalThread.interrupt();
         }
-    }  // type SlowIncrementer
+    } // type SlowIncrementer
 }
