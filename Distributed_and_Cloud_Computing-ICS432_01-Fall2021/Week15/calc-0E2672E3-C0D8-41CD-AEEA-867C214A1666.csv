@@ -1,0 +1,33 @@
+Your Estimate,,,,
+Service Type,Components,Region,Component Price,Service Price
+Amazon EC2 Service (US West (Oregon)),,,,$304.56
+,Compute:,US West (Oregon),$304.56,
+,Reserved Instances (one-time fee):,US West (Oregon),$0,
+Amazon S3 Service (US West (Oregon)),,,,$6.74
+,S3 Standard Storage:,US West (Oregon),$2.3,
+,S3 Standard Put Requests:,US West (Oregon),$0.05,
+,S3 Standard Other Requests:,US West (Oregon),$0.01,
+,S3 Standard Select Data Returned:,US West (Oregon),$0.01,
+,S3 Standard Select Data Scanned:,US West (Oregon),$0.02,
+,Cross Region Replication - Storage:,US West (Oregon),$2.3,
+,Cross Region Replication - Requests:,US West (Oregon),$0.05,
+,Cross Region Replication - Inter Region Data Transfer:,US West (Oregon),$2,
+Amazon Route 53 Service,,,,$20897.3
+,Hosted Zones:,Global,$2.5,
+,Standard Queries:,Global,$4,
+,Basic Checks Within AWS:,Global,$4975,
+,Basic Checks Outside of AWS:,Global,$15000,
+,Resolver:,Global,$915.8,
+Amazon RDS Service (US West (Oregon)),,,,$5556.92
+,DB instances:,US West (Oregon),$5533.92,
+,Storage:,US West (Oregon),$23,
+Amazon Elastic Load Balancing (US West (Oregon)),,,,$84.55
+,Application LBs:,US West (Oregon),$84.55,
+AWS Data Transfer In,,,,$0
+,US West (Oregon) Region:,Global,$0,
+AWS Data Transfer Out,,,,$2.61
+,US West (Oregon) Region:,Global,$2.61,
+AWS Support (Business),,,,$2177.23
+,Support for all AWS services:,,$2177.23,
+,,Free Tier Discount:,,$-35.22
+,,Total Monthly Payment:,,$28994.69

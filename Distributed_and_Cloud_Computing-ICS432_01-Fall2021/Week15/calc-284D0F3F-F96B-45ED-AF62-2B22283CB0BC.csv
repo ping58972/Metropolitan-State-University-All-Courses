@@ -1,0 +1,29 @@
+Your Estimate,,,,
+Service Type,Components,Region,Component Price,Service Price
+Amazon DynamoDB Service (Europe (Ireland)),,,,$346.06
+,On-demand Capacity:,Europe (Ireland),$24.04,
+,Provisioned Capacity:,Europe (Ireland),$0,
+,Indexed Data Storage:,Europe (Ireland),$311.02,
+,DynamoDB Streams:,Europe (Ireland),$0,
+,On-demand backup:,Europe (Ireland),$11,
+,Continuous backup (PITR):,Europe (Ireland),$0,
+,Restoring a table:,Europe (Ireland),$0,
+,Change Data Capture:,Europe (Ireland),$0,
+,Data export to Amazon S3:,Europe (Ireland),$0,
+Amazon SQS Service (Europe (Ireland)),,,,$0
+,Requests - Standard Queue:,Europe (Ireland),$0,
+,Requests - FIFO Queue:,Europe (Ireland),$0,
+Amazon VPC Service (Europe (Ireland)),,,,$1852.37
+,VPN Connection:,Europe (Ireland),$1830,
+,NAT Gateway,Europe (Ireland),$22.37,
+Amazon Elastic File System Service (Europe (Ireland)),,,,$67.25
+,Storage:,Europe (Ireland),$34.25,
+,Provisioned Throughput:,Europe (Ireland),$33,
+AWS Data Transfer In,,,,$0
+,Europe (Ireland) Region:,Global,$0,
+AWS Data Transfer Out,,,,$4309.61
+,Europe (Ireland) Region:,Global,$4309.61,
+AWS Support (Enterprise),,,,$15000
+,AWS Support Plan Minimum:,,$15000,
+,,Free Tier Discount:,,$-2.91
+,,Total Monthly Payment:,,$21572.38
