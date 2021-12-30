@@ -1,0 +1,30 @@
+Using simulated Anneling Algorithm:
+Initial cycle: LA Mia Den Dal Atl Chi Bos , dist = 6925
+Better cycle ( temp = 1000000.0 ) : LA Chi Dal Den Atl Mia Bos , dist = 6319
+Better cycle ( temp = 997602.5184885672 ) : LA Den Chi Atl Dal Mia Bos , dist = 5447
+Better cycle ( temp = 996107.0122837889 ) : LA Dal Den Chi Atl Mia Bos , dist = 5317
+Better cycle ( temp = 986588.7180738983 ) : LA Den Dal Atl Chi Mia Bos , dist = 5255
+Better cycle ( temp = 983632.9444091152 ) : LA Den Chi Dal Atl Mia Bos , dist = 5161
+Better cycle ( temp = 981569.173362867 ) : LA Den Dal Chi Mia Atl Bos , dist = 5032
+Better cycle ( temp = 978334.8494879099 ) : LA Den Dal Chi Atl Mia Bos , dist = 4756
+Better cycle ( temp = 970441.1656798428 ) : LA Den Dal Mia Atl Chi Bos , dist = 4643
+The Algorithm time limited by 3.001sec.
+Best cycle: LA Den Dal Mia Atl Chi Bos , dist = 4643
+
+Using generic And simulated Anneling Algorithm:
+Initial cycle: LA Dal Chi Den Atl Mia Bos , dist = 6092
+Better cycle ( temp = 1000000.0 ) : LA Den Dal Atl Mia Chi Bos , dist = 4856
+Better cycle ( temp = 996107.0122837889 ) : LA Den Dal Chi Atl Mia Bos , dist = 4756
+Better cycle ( temp = 985405.3442635739 ) : LA Den Dal Mia Atl Chi Bos , dist = 4643
+The Algorithm time limited by 3.001sec.
+Best cycle: LA Den Dal Mia Atl Chi Bos , dist = 4643
+
+Using generic Algorithm:
+Initial cycle: LA Atl Mia Dal Den Chi Bos , dist = 6120
+Better cycle ( i = 13 ) : LA Den Atl Dal Chi Mia Bos , dist = 6030
+Better cycle ( i = 20 ) : LA Den Chi Dal Mia Atl Bos , dist = 5224
+Better cycle ( i = 31 ) : LA Den Dal Chi Atl Mia Bos , dist = 4756
+Better cycle ( i = 76 ) : LA Den Dal Mia Atl Chi Bos , dist = 4643
+Best cycle: LA Den Dal Mia Atl Chi Bos , dist = 4643
+
+

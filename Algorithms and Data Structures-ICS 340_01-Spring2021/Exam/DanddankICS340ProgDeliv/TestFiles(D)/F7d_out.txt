@@ -1,0 +1,16 @@
+Using simulated Anneling Algorithm:
+Initial cycle: M D F C , dist = 2685
+The Algorithm time limited by 3.001sec.
+Best cycle: M D F C , dist = 2685
+
+Using generic And simulated Anneling Algorithm:
+Initial cycle: M F D C , dist = 2742
+Better cycle ( temp = 1000000.0 ) : M D F C , dist = 2685
+The Algorithm time limited by 3.001sec.
+Best cycle: M D F C , dist = 2685
+
+Using generic Algorithm:
+Initial cycle: M F D C , dist = 2742
+Best cycle: M F D C , dist = 2742
+
+

@@ -1,0 +1,18 @@
+Yields output:
+
+Depth 1:
+P
+
+Depth 26:
+Pu
+
+Depth 43:
+Pm
+
+Depth 59:
+Put
+
+Depth 66:
+Pj
+
+Path found: Pj, length = 66

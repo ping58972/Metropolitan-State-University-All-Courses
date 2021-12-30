@@ -1,0 +1,156 @@
+Noy: 49.00
+Bau: 48.71
+IFl: 48.59
+TRF: 48.12
+Ely: 47.98
+GPo: 47.96
+EGF: 47.93
+Crk: 47.77
+Vir: 47.52
+Bem: 47.47
+Hib: 47.42
+GRa: 47.24
+Mrh: 46.87
+DLk: 46.81
+Dul: 46.79
+Clq: 46.72
+Bra: 46.36
+FFl: 46.28
+LFa: 45.98
+Alx: 45.89
+Mor: 45.59
+SCl: 45.55
+Lit: 45.13
+Wlm: 45.12
+Stl: 45.05
+Mpl: 44.98
+Mvo: 44.95
+SPl: 44.94
+Hut: 44.89
+Skp: 44.80
+RWi: 44.56
+Nfd: 44.46
+Mar: 44.45
+SPt: 44.33
+NUl: 44.31
+Frb: 44.29
+Mkt: 44.17
+Owa: 44.09
+Was: 44.08
+Win: 44.05
+Rch: 44.02
+Pip: 44.00
+Wnd: 43.87
+LCr: 43.83
+Aus: 43.67
+Luv: 43.66
+Fmt: 43.65
+ALe: 43.64
+Wrt: 43.62
+     |  Noy  Bau  IFl  TRF  Ely  GPo  EGF  Crk  Vir  Bem  Hib  GRa  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe  Wrt
+-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Noy|    .  144  214  394  660  812 1228 1253 1467 1593 1696 1730 1906 1950 2157 2178 2276 2376 2490 2545 2592 2685 2726 2754 2895 2922 3051 3188 3257 3309 3368 3405 3547 3658 3687 3757 3800 3847 3865 3972 4024 4258 4324 4546 4646 4812 4905 4964 5080
+  Bau|    .    .  357  537  803  955 1371 1396 1610 1736 1839 1873 2049 2093 2300 2321 2419 2519 2633 2688 2735 2828 2869 2897 3038 3065 3194 3331 3400 3452 3511 3548 3690 3801 3830 3900 3943 3990 4008 4115 4167 4401 4467 4689 4789 4955 5048 5107 5223
+  IFl|    .    .    .  293  559  711 1127 1152 1366 1492 1595 1629 1805 1849 2056 2077 2175 2275 2389 2444 2491 2584 2625 2653 2794 2821 2950 3087 3156 3208 3267 3304 3446 3557 3586 3656 3699 3746 3764 3871 3923 4157 4223 4445 4545 4711 4804 4863 4979
+  TRF|    .    .    .    .  429  581  997 1022 1236 1362 1465 1499 1675 1719 1926 1947 2045 2145 2259 2314 2361 2454 2495 2523 2664 2691 2820 2957 3026 3078 3137 3174 3316 3427 3456 3526 3569 3616 3634 3741 3793 4027 4093 4315 4415 4581 4674 4733 4849
+  Ely|    .    .    .    .    .  823 1239 1264 1478 1604 1707 1741 1917 1961 2168 2189 2287 2387 2501 2556 2603 2696 2737 2765 2906 2933 3062 3199 3268 3320 3379 3416 3558 3669 3698 3768 3811 3858 3876 3983 4035 4269 4335 4557 4657 4823 4916 4975 5091
+  GPo|    .    .    .    .    .    .  631  656  870  996 1099 1133 1309 1353 1560 1581 1679 1779 1893 1948 1995 2088 2129 2157 2298 2325 2454 2591 2660 2712 2771 2808 2950 3061 3090 3160 3203 3250 3268 3375 3427 3661 3727 3949 4049 4215 4308 4367 4483
+  EGF|    .    .    .    .    .    .    . 1022 1236 1362 1465 1499 1675 1719 1926 1947 2045 2145 2259 2314 2361 2454 2495 2523 2664 2691 2820 2957 3026 3078 3137 3174 3316 3427 3456 3526 3569 3616 3634 3741 3793 4027 4093 4315 4415 4581 4674 4733 4849
+  Crk|    .    .    .    .    .    .    .    .  873  999 1102 1136 1312 1356 1563 1584 1682 1782 1896 1951 1998 2091 2132 2160 2301 2328 2457 2594 2663 2715 2774 2811 2953 3064 3093 3163 3206 3253 3271 3378 3430 3664 3730 3952 4052 4218 4311 4370 4486
+  Vir|    .    .    .    .    .    .    .    .    .  961 1064 1098 1274 1318 1525 1546 1644 1744 1858 1913 1960 2053 2094 2122 2263 2290 2419 2556 2625 2677 2736 2773 2915 3026 3055 3125 3168 3215 3233 3340 3392 3626 3692 3914 4014 4180 4273 4332 4448
+  Bem|    .    .    .    .    .    .    .    .    .    .  984 1018 1194 1238 1445 1466 1564 1664 1778 1833 1880 1973 2014 2042 2183 2210 2339 2476 2545 2597 2656 2693 2835 2946 2975 3045 3088 3135 3153 3260 3312 3546 3612 3834 3934 4100 4193 4252 4368
+  Hib|    .    .    .    .    .    .    .    .    .    .    . 1053 1229 1273 1480 1501 1599 1699 1813 1868 1915 2008 2049 2077 2218 2245 2374 2511 2580 2632 2691 2728 2870 2981 3010 3080 3123 3170 3188 3295 3347 3581 3647 3869 3969 4135 4228 4287 4403
+  GRa|    .    .    .    .    .    .    .    .    .    .    .    . 1152 1196 1403 1424 1522 1622 1736 1791 1838 1931 1972 2000 2141 2168 2297 2434 2503 2555 2614 2651 2793 2904 2933 3003 3046 3093 3111 3218 3270 3504 3570 3792 3892 4058 4151 4210 4326
+  Mrh|    .    .    .    .    .    .    .    .    .    .    .    .    . 1285 1492 1513 1611 1711 1825 1880 1927 2020 2061 2089 2230 2257 2386 2523 2592 2644 2703 2740 2882 2993 3022 3092 3135 3182 3200 3307 3359 3593 3659 3881 3981 4147 4240 4299 4415
+  DLk|    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1279 1300 1398 1498 1612 1667 1714 1807 1848 1876 2017 2044 2173 2310 2379 2431 2490 2527 2669 2780 2809 2879 2922 2969 2987 3094 3146 3380 3446 3668 3768 3934 4027 4086 4202
+  Dul|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1468 1566 1666 1780 1835 1882 1975 2016 2044 2185 2212 2341 2478 2547 2599 2658 2695 2837 2948 2977 3047 3090 3137 3155 3262 3314 3548 3614 3836 3936 4102 4195 4254 4370
+  Clq|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1392 1492 1606 1661 1708 1801 1842 1870 2011 2038 2167 2304 2373 2425 2484 2521 2663 2774 2803 2873 2916 2963 2981 3088 3140 3374 3440 3662 3762 3928 4021 4080 4196
+  Bra|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1446 1560 1615 1662 1755 1796 1824 1965 1992 2121 2258 2327 2379 2438 2475 2617 2728 2757 2827 2870 2917 2935 3042 3094 3328 3394 3616 3716 3882 3975 4034 4150
+  FFl|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1478 1533 1580 1673 1714 1742 1883 1910 2039 2176 2245 2297 2356 2393 2535 2646 2675 2745 2788 2835 2853 2960 3012 3246 3312 3534 3634 3800 3893 3952 4068
+  LFa|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1527 1574 1667 1708 1736 1877 1904 2033 2170 2239 2291 2350 2387 2529 2640 2669 2739 2782 2829 2847 2954 3006 3240 3306 3528 3628 3794 3887 3946 4062
+  Alx|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1586 1679 1720 1748 1889 1916 2045 2182 2251 2303 2362 2399 2541 2652 2681 2751 2794 2841 2859 2966 3018 3252 3318 3540 3640 3806 3899 3958 4074
+  Mor|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1608 1649 1677 1818 1845 1974 2111 2180 2232 2291 2328 2470 2581 2610 2680 2723 2770 2788 2895 2947 3181 3247 3469 3569 3735 3828 3887 4003
+  SCl|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1690 1718 1859 1886 2015 2152 2221 2273 2332 2369 2511 2622 2651 2721 2764 2811 2829 2936 2988 3222 3288 3510 3610 3776 3869 3928 4044
+  Lit|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1703 1844 1871 2000 2137 2206 2258 2317 2354 2496 2607 2636 2706 2749 2796 2814 2921 2973 3207 3273 3495 3595 3761 3854 3913 4029
+  Wlm|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1795 1822 1951 2088 2157 2209 2268 2305 2447 2558 2587 2657 2700 2747 2765 2872 2924 3158 3224 3446 3546 3712 3805 3864 3980
+  Stl|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1890 2019 2156 2225 2277 2336 2373 2515 2626 2655 2725 2768 2815 2833 2940 2992 3226 3292 3514 3614 3780 3873 3932 4048
+  Mpl|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1859 1996 2065 2117 2176 2213 2355 2466 2495 2565 2608 2655 2673 2780 2832 3066 3132 3354 3454 3620 3713 3772 3888
+  Mvo|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1868 1937 1989 2048 2085 2227 2338 2367 2437 2480 2527 2545 2652 2704 2938 3004 3226 3326 3492 3585 3644 3760
+  SPl|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1936 1988 2047 2084 2226 2337 2366 2436 2479 2526 2544 2651 2703 2937 3003 3225 3325 3491 3584 3643 3759
+  Hut|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 1965 2024 2061 2203 2314 2343 2413 2456 2503 2521 2628 2680 2914 2980 3202 3302 3468 3561 3620 3736
+  Skp|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2040 2077 2219 2330 2359 2429 2472 2519 2537 2644 2696 2930 2996 3218 3318 3484 3577 3636 3752
+  RWi|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2075 2217 2328 2357 2427 2470 2517 2535 2642 2694 2928 2994 3216 3316 3482 3575 3634 3750
+  Nfd|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2124 2235 2264 2334 2377 2424 2442 2549 2601 2835 2901 3123 3223 3389 3482 3541 3657
+  Mar|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2172 2201 2271 2314 2361 2379 2486 2538 2772 2838 3060 3160 3326 3419 3478 3594
+  SPt|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2254 2324 2367 2414 2432 2539 2591 2825 2891 3113 3213 3379 3472 3531 3647
+  NUl|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2278 2321 2368 2386 2493 2545 2779 2845 3067 3167 3333 3426 3485 3601
+  Frb|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2308 2355 2373 2480 2532 2766 2832 3054 3154 3320 3413 3472 3588
+  Mkt|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2324 2342 2449 2501 2735 2801 3023 3123 3289 3382 3441 3557
+  Owa|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2353 2460 2512 2746 2812 3034 3134 3300 3393 3452 3568
+  Was|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2446 2498 2732 2798 3020 3120 3286 3379 3438 3554
+  Win|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2501 2735 2801 3023 3123 3289 3382 3441 3557
+  Rch|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2581 2647 2869 2969 3135 3228 3287 3403
+  Pip|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2745 2967 3067 3233 3326 3385 3501
+  Wnd|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2718 2818 2984 3077 3136 3252
+  LCr|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2841 3007 3100 3159 3275
+  Aus|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2881 2974 3033 3149
+  Luv|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2959 3018 3134
+  Fmt|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 2996 3112
+  ALe|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 3051
+  Wrt|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    . 3167
+
+     |  Noy  Bau  IFl  TRF  Ely  GPo  EGF  Crk  Vir  Bem  Hib  GRa  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe  Wrt
+-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Noy|    .  Noy  Bau  IFl  TRF  Ely  GPo  EGF  Crk  Vir  Bem  Hib  GRa  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Bau|    .    .  Noy  IFl  TRF  Ely  GPo  EGF  Crk  Vir  Bem  Hib  GRa  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  IFl|    .    .    .  Noy  TRF  Ely  GPo  EGF  Crk  Vir  Bem  Hib  GRa  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  TRF|    .    .    .    .  IFl  Ely  GPo  EGF  Crk  Vir  Bem  Hib  GRa  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Ely|    .    .    .    .    .  TRF  GPo  EGF  Crk  Vir  Bem  Hib  GRa  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  GPo|    .    .    .    .    .    .  TRF  EGF  Crk  Vir  Bem  Hib  GRa  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  EGF|    .    .    .    .    .    .    .  GPo  Crk  Vir  Bem  Hib  GRa  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Crk|    .    .    .    .    .    .    .    .  GPo  Vir  Bem  Hib  GRa  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Vir|    .    .    .    .    .    .    .    .    .  Crk  Bem  Hib  GRa  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Bem|    .    .    .    .    .    .    .    .    .    .  Vir  Hib  GRa  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Hib|    .    .    .    .    .    .    .    .    .    .    .  Bem  GRa  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  GRa|    .    .    .    .    .    .    .    .    .    .    .    .  Bem  Mrh  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Mrh|    .    .    .    .    .    .    .    .    .    .    .    .    .  Bem  DLk  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  DLk|    .    .    .    .    .    .    .    .    .    .    .    .    .    .  GRa  Dul  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Dul|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  DLk  Clq  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Clq|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  DLk  Bra  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Bra|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  DLk  FFl  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  FFl|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Bra  LFa  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  LFa|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  FFl  Alx  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Alx|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  FFl  Mor  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Mor|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  LFa  SCl  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  SCl|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Mor  Lit  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Lit|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Mor  Wlm  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Wlm|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Lit  Stl  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Stl|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Wlm  Mpl  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Mpl|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Wlm  Mvo  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Mvo|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Mpl  SPl  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  SPl|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Mvo  Hut  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Hut|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  SPl  Skp  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Skp|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  SPl  RWi  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  RWi|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Skp  Nfd  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Nfd|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Mvo  Mar  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Mar|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Nfd  SPt  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  SPt|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Mar  NUl  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  NUl|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Nfd  Frb  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Frb|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  NUl  Mkt  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Mkt|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Frb  Owa  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Owa|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Mkt  Was  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Was|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Owa  Win  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Win|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Was  Rch  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Rch|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Mar  Pip  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Pip|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Rch  Wnd  LCr  Aus  Luv  Fmt  ALe
+  Wnd|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Rch  LCr  Aus  Luv  Fmt  ALe
+  LCr|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Wnd  Aus  Luv  Fmt  ALe
+  Aus|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Wnd  Luv  Fmt  ALe
+  Luv|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Aus  Fmt  ALe
+  Fmt|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Aus  ALe
+  ALe|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  Luv
+  Wrt|    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .    .  ALe
+
+Shortest bitonic tour has distance 3167
+Tour is: Noy->Bau->IFl->Ely->GPo->Vir->Hib->GRa->Dul->Clq->Bra->LFa->SCl->Lit->Stl->Mpl->SPl->Hut->Skp->RWi->Nfd->SPt->NUl->Frb->Mkt->Owa->Was->Win->Rch->LCr->Aus->Fmt->ALe->Wrt->Luv->Wnd->Pip->Mar->Mvo->Wlm->Mor->Alx->FFl->DLk->Mrh->Bem->Crk->EGF->TRF->Noy
+Reversed Tour is: Noy->TRF->EGF->Crk->Bem->Mrh->DLk->FFl->Alx->Mor->Wlm->Mvo->Mar->Pip->Wnd->Luv->Wrt->ALe->Fmt->Aus->LCr->Rch->Win->Was->Owa->Mkt->Frb->NUl->SPt->Nfd->RWi->Skp->Hut->SPl->Mpl->Stl->Lit->SCl->LFa->Bra->Clq->Dul->GRa->Hib->Vir->GPo->Ely->IFl->Bau->Noy

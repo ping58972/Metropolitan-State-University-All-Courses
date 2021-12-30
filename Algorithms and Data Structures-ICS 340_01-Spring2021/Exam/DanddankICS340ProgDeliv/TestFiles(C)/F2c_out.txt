@@ -1,0 +1,132 @@
+Yields output:
+
+Depth 1:
+L
+
+Depth 313:
+LF
+
+Depth 812:
+LD
+
+Depth 1004:
+LFS
+
+Depth 1248:
+LT
+
+Depth 1270:
+LFD
+
+Depth 1479:
+LDT
+
+Depth 1509:
+LDM
+
+Depth 1740:
+LDC
+
+Depth 1769:
+LDF
+
+Depth 1845:
+LDS
+
+Depth 1863:
+LDMC
+
+Depth 1915:
+LTD
+
+Depth 1937:
+LFDT
+
+Depth 1967:
+LFDM
+
+Depth 1973:
+LTA
+
+Depth 2037:
+LFSD
+
+Depth 2051:
+LTC
+
+Depth 2094:
+LDCM
+
+Depth 2198:
+LFDC
+
+Depth 2204:
+LDTA
+
+Depth 2282:
+LDTC
+
+Depth 2303:
+LFDS
+
+Depth 2321:
+LDCA
+
+Depth 2321:
+LFDMC
+
+Depth 2341:
+LDCW
+
+Depth 2364:
+LTX
+
+Depth 2405:
+LTCM
+
+Depth 2419:
+LFSM
+
+Depth 2444:
+LDMCA
+
+Depth 2458:
+LDCN
+
+Depth 2460:
+LDFS
+
+Depth 2464:
+LDMCW
+
+Depth 2511:
+LTAW
+
+Depth 2536:
+LDSF
+
+Depth 2543:
+LDCT
+
+Depth 2552:
+LFDCM
+
+Depth 2554:
+LTAC
+
+Depth 2554:
+LDCWN
+
+Depth 2581:
+LDMCN
+
+Depth 2581:
+LTAX
+
+Depth 2595:
+LDTX
+
+Depth 2599:
+LDCB
+
+Path found: LDCB, length = 2599

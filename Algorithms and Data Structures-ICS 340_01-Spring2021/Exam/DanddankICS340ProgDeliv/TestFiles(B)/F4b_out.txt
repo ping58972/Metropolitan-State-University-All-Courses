@@ -1,0 +1,27 @@
+T: 6.6
+S: 5.5
+D: 4.4
+C: 3.3
+B: 2.2
+A: 1.1
+     |    T    S    D    C    B    A
+-----|------------------------------
+    T|    .    2    3    4    5    6
+    S|    .    .    4    5    6    7
+    D|    .    .    .    5    6    7
+    C|    .    .    .    .    6    7
+    B|    .    .    .    .    .    7
+    A|    .    .    .    .    .    8
+
+     |    T    S    D    C    B    A
+-----|------------------------------
+    T|    .    T    S    D    C    B
+    S|    .    .    T    D    C    B
+    D|    .    .    .    T    C    B
+    C|    .    .    .    .    T    B
+    B|    .    .    .    .    .    T
+    A|    .    .    .    .    .    B
+
+Shortest bitonic tour has distance 8
+Tour is: T->S->D->C->B->A->T
+Reversed Tour is: T->A->B->C->D->S->T

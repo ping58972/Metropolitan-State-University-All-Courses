@@ -1,0 +1,16 @@
+Using simulated Anneling Algorithm:
+Initial cycle: A C B D , dist = 14
+Better cycle ( temp = 1000000.0 ) : A B C D , dist = 7
+The Algorithm time limited by 3.001sec.
+Best cycle: A B C D , dist = 7
+
+Using generic And simulated Anneling Algorithm:
+Initial cycle: A B C D , dist = 7
+The Algorithm time limited by 3.001sec.
+Best cycle: A B C D , dist = 7
+
+Using generic Algorithm:
+Initial cycle: A C B D , dist = 14
+Best cycle: A C B D , dist = 14
+
+

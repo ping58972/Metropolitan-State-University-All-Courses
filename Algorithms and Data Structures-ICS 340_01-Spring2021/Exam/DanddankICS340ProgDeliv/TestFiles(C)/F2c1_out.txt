@@ -1,0 +1,15 @@
+Yields output:
+
+Depth 1:
+S
+
+Depth 691:
+SF
+
+Depth 1004:
+SFL
+
+Depth 1033:
+SD
+
+Path found: SD, length = 1033

@@ -1,0 +1,5 @@
+~             val    C    D    F    M
+Chicago         G  ~    1004  967  398
+Denver          ~  1004   ~   794  924
+FortWorth       ~  967  794    ~   944
+Minneapolis     S  398  924  944    ~

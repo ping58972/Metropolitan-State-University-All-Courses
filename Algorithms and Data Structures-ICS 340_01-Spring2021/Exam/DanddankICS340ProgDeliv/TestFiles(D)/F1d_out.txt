@@ -1,0 +1,33 @@
+Using simulated Anneling Algorithm:
+Initial cycle: S C T D G		 B A , dist = 27
+Better cycle ( temp = 1000000.0 ) : S G		 T D C B A , dist = 25
+Better cycle ( temp = 999700.0 ) : S D B C T G		 A , dist = 23
+Better cycle ( temp = 998800.5398920083 ) : S D T G		 B C A , dist = 18
+Better cycle ( temp = 995210.7848947321 ) : S T C G		 B D A , dist = 13
+Better cycle ( temp = 991633.9317136102 ) : S D T C G		 B A , dist = 12
+Better cycle ( temp = 988366.443911838 ) : S T G		 D C B A , dist = 10
+The Algorithm time limited by 3.001sec.
+Best cycle: S T G		 D C B A , dist = 10
+
+Using generic And simulated Anneling Algorithm:
+Initial cycle: S D C B G		 T A , dist = 28
+Better cycle ( temp = 999100.2699730002 ) : S T D B G		 C A , dist = 27
+Better cycle ( temp = 998800.5398920083 ) : S G		 T C B D A , dist = 23
+Better cycle ( temp = 997602.5184885672 ) : S T C B G		 D A , dist = 14
+Better cycle ( temp = 979803.6734392699 ) : S T C G		 B D A , dist = 13
+Better cycle ( temp = 978628.4380193157 ) : S T G		 D C B A , dist = 10
+The Algorithm time limited by 3.001sec.
+Best cycle: S T G		 D C B A , dist = 10
+
+Using generic Algorithm:
+Initial cycle: S B D G		 T C A , dist = 35
+Better cycle ( i = 1 ) : S T C B D G		 A , dist = 21
+Better cycle ( i = 5 ) : S T C D G		 B A , dist = 16
+Better cycle ( i = 14 ) : S T D C G		 B A , dist = 15
+Better cycle ( i = 39 ) : S T C B G		 D A , dist = 14
+Better cycle ( i = 47 ) : S T C G		 B D A , dist = 13
+Better cycle ( i = 56 ) : S T C G		 D B A , dist = 11
+Better cycle ( i = 112 ) : S T G		 D C B A , dist = 10
+Best cycle: S T G		 D C B A , dist = 10
+
+

@@ -1,0 +1,15 @@
+Yields output:
+
+Depth 1:
+B
+
+Depth 3:
+BD
+
+Depth 4:
+BA
+
+Depth 4:
+BDE
+
+Path found: BDE, length = 4

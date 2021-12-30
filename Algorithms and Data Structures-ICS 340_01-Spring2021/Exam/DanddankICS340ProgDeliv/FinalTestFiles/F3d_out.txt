@@ -1,0 +1,45 @@
+Using generic Algorithm and time limited by 600 seconds: 
+Initial cycle: GPo Mvo Mar DLk Mpl Hib Lit SPl Fmt Noy Wlm Win Dul Hut NUl ALe FFl IFl LFa LCr GRa RWi Bra Mkt Bem Skp Mor SCl Aus Mrh Frb Stl Owa Wnd SPt Rch Pip TRF Clq Bau Alx Crk Ely Vir Nfd Was EGF Wrt Luv , dist = 9929
+Better cycle ( i = 2 ) : GPo Clq Fmt Bem SPt SPl Hut Mrh RWi Aus Win Mvo Stl Mkt Lit DLk Dul Wrt FFl Crk Mor TRF Skp IFl LCr Bra Bau NUl Wnd Mar SCl Was Pip Ely Nfd Alx Rch Frb Noy EGF Hib Mpl Wlm Vir LFa Owa ALe GRa Luv , dist = 9872
+Better cycle ( i = 5 ) : GPo LCr Wnd Crk Win Vir LFa Was Nfd IFl Noy Mar SCl Ely TRF Lit SPt Fmt Dul Pip RWi Hib Clq Mkt Mor Aus Skp Bra Mpl Wrt ALe Owa Frb Alx Bau Rch Stl Hut NUl GRa FFl DLk Bem Mrh Wlm Mvo EGF SPl Luv , dist = 9408
+Better cycle ( i = 10 ) : GPo Wnd TRF Bau Noy Clq RWi Alx Dul Mar EGF SCl Bem Nfd Rch Was LCr Mpl DLk Mvo Crk Vir GRa Wrt IFl Owa SPl Pip FFl Mrh Fmt Wlm Hut Skp Win ALe Bra SPt Hib Ely Stl LFa Mor Aus Frb Lit NUl Mkt Luv , dist = 8794
+Better cycle ( i = 20 ) : GPo Bra Alx Noy LFa SCl SPl Nfd Lit EGF TRF Owa Win Skp Crk Bem ALe Mar DLk GRa Mrh Mvo Clq Ely Mpl RWi Hut Hib Bau Stl NUl IFl Dul Mor Mkt Wnd Fmt FFl Frb LCr Was SPt Aus Rch Vir Wlm Wrt Pip Luv , dist = 7931
+Better cycle ( i = 333 ) : GPo Crk Alx Win Nfd Dul Noy TRF IFl Frb Mkt Bra SPt EGF Bau Vir Hib SCl LFa Mrh DLk GRa Clq LCr Owa Aus Stl Was Pip NUl FFl Bem Wrt Mvo SPl Rch Ely RWi Skp Mar Wlm Wnd Mor Hut Mpl Fmt ALe Lit Luv , dist = 7508
+Better cycle ( i = 14177 ) : GPo Clq Stl Win Hut Mvo Vir Mor Wnd Aus Frb NUl LFa Nfd SPl Was Dul GRa Hib SCl Owa Mpl Alx Bau Crk FFl Mar Lit Bra EGF Mrh Noy IFl TRF Ely DLk Pip Fmt Bem LCr Rch ALe Skp Mkt RWi Wrt SPt Wlm Luv , dist = 7164
+Better cycle ( i = 146304 ) : GPo Crk SPt Mkt Owa Nfd FFl DLk Bau EGF LFa Skp Mvo LCr Frb ALe SCl Wrt Clq Dul Wnd Fmt Wlm Mar NUl Hut Rch Aus Mpl Alx Bem SPl Lit GRa Win RWi Mor Bra Stl IFl Hib Ely Vir TRF Noy Mrh Was Pip Luv , dist = 7145
+-->Best cycle: GPo Crk SPt Mkt Owa Nfd FFl DLk Bau EGF LFa Skp Mvo LCr Frb ALe SCl Wrt Clq Dul Wnd Fmt Wlm Mar NUl Hut Rch Aus Mpl Alx Bem SPl Lit GRa Win RWi Mor Bra Stl IFl Hib Ely Vir TRF Noy Mrh Was Pip Luv , dist = 7145
+
+
+Using simulated Anneling Algorithm and time limited by 600 seconds: 
+Initial cycle: GPo Mor Skp Mar Noy FFl Pip DLk SPl Ely Wlm Lit GRa Was LFa Rch Crk Aus NUl Win Hib RWi EGF Alx Frb LCr Mkt Hut Bau Owa SCl Stl Vir Wrt Bem SPt TRF IFl Nfd Mpl Clq Mvo Dul Mrh Fmt Wnd ALe Bra Luv , dist = 10852
+Better cycle ( temp = 99970.0 ) : GPo Mrh FFl Hib Frb Pip Lit SPt SPl RWi Bem Clq Wrt Mvo DLk Mar SCl Nfd IFl Bra NUl GRa Vir Owa Skp TRF Fmt Mor Was Dul Mkt Ely LCr Rch Aus Alx Wlm Hut Win Mpl Stl LFa ALe Wnd Bau Crk Noy EGF Luv , dist = 8751
+Better cycle ( temp = 99760.25184885671 ) : GPo Mvo Aus Was Alx ALe Hib Clq Vir Dul Mpl Bem LCr Nfd NUl TRF Wrt Hut Wlm Skp Stl Owa GRa Noy Mrh FFl SCl Fmt Wnd Rch SPt Pip Lit Mar Crk Mkt Bra Frb IFl LFa Mor Ely DLk EGF Bau SPl Win RWi Luv , dist = 8699
+Better cycle ( temp = 99401.70692592076 ) : GPo Vir LCr NUl Mkt Wnd Pip Fmt Hib Lit Bem Crk FFl SPl Frb Mpl Mvo Dul GRa Rch Bra EGF Was Win Skp DLk Aus Hut Mor Alx Noy Bau ALe SPt Nfd RWi LFa Stl Mar SCl Clq Wlm Mrh Wrt Owa TRF Ely IFl Luv , dist = 8686
+Better cycle ( temp = 98806.99339786643 ) : GPo Dul TRF Ely Crk Alx Skp Mrh Clq Bau Bem SPl Noy LCr Mvo Stl Nfd Owa Bra Wrt Fmt Hut RWi GRa IFl Vir Wlm FFl Hib DLk NUl LFa Frb Wnd SPt Mkt Was Mor Aus Rch Mar Win Lit Pip ALe Mpl SCl EGF Luv , dist = 8607
+Better cycle ( temp = 98540.53442635741 ) : GPo Skp Vir EGF Wlm Bem Noy Mrh Mor Mpl GRa Bau Alx Dul Hib TRF FFl Nfd SPl Stl NUl Clq Ely Win Aus Owa Wnd Lit SPt Mvo Mar RWi Fmt Was Hut LFa Bra ALe Pip Wrt Frb IFl Mkt Crk Rch SCl DLk LCr Luv , dist = 8358
+Better cycle ( temp = 98215.83799966107 ) : GPo SCl Was Ely Mor Mvo Mar Nfd Mkt Bau Wlm Win Fmt Frb Stl Skp ALe LFa Bem Dul Alx Wrt NUl RWi Crk Pip Rch LCr FFl EGF DLk Bra Mpl SPl Hut Hib Lit Clq Vir GRa TRF Noy Wnd IFl Mrh SPt Aus Owa Luv , dist = 8355
+Better cycle ( temp = 98186.37324826118 ) : GPo Bem Pip ALe Mpl Win RWi FFl Mrh Ely Wnd Hut Skp Wrt Mar NUl Lit Stl Noy Mor Mkt Aus Fmt EGF GRa Dul Vir LFa Rch SPl Nfd TRF Clq Frb LCr Crk IFl Bau Bra Wlm Alx Was SPt DLk Hib Mvo Owa SCl Luv , dist = 8314
+Better cycle ( temp = 93949.82133134021 ) : GPo Mrh EGF Lit Bem LCr Nfd Aus RWi Fmt Mar Hut Skp Mor Stl FFl Mpl Wnd SPt LFa NUl TRF Noy DLk Vir Hib Clq Dul Bau SPl Bra Wrt Mvo Wlm Frb Ely IFl SCl Alx Pip Mkt Rch GRa Was Owa Win ALe Crk Luv , dist = 8001
+Better cycle ( temp = 79944.81700892023 ) : GPo Noy NUl Rch Skp Bra FFl Wlm LFa Aus Owa Clq Mar SPt Wrt Fmt Win ALe Dul Nfd SPl IFl DLk Mrh Mkt Mpl Hut Mvo Frb RWi SCl Bem GRa Crk Vir Stl Hib Alx Wnd Ely TRF Bau EGF Mor Pip Was LCr Lit Luv , dist = 7967
+Better cycle ( temp = 60697.061762775906 ) : GPo Stl LFa Noy RWi Alx Skp SCl Mpl SPl DLk Pip SPt Lit EGF Crk TRF Bem Wlm NUl Mor Hut Win Owa Frb Nfd LCr Vir Rch Mvo Bau IFl Clq Ely GRa Mkt Was Bra Wnd Mrh Hib FFl Mar Fmt Dul ALe Wrt Aus Luv , dist = 7880
+Better cycle ( temp = 57024.78107950107 ) : GPo Hib IFl RWi SPt Wrt Lit DLk Bau EGF Vir Clq LFa Dul Nfd Skp Rch Was SPl Frb SCl Fmt Mvo Pip Alx NUl ALe Wlm Mkt Mar Aus Bra Owa LCr Noy Hut Mor TRF Mrh Bem Ely Win FFl Crk GRa Stl Mpl Wnd Luv , dist = 7767
+Better cycle ( temp = 55123.76021697761 ) : GPo Bra Mpl Aus Pip Hib Noy Crk Bem Lit Win ALe RWi Alx Mor Mvo Stl EGF IFl SPt Clq SCl Skp Owa Wnd Fmt NUl LCr Mrh Wlm FFl TRF LFa Ely Vir Bau GRa Nfd Dul SPl DLk Hut Frb Rch Mkt Was Wrt Mar Luv , dist = 7441
+Better cycle ( temp = 40969.84585711289 ) : GPo LFa Frb ALe GRa Vir Hib Noy Crk Mar Bem Mrh EGF Dul Bra DLk Wlm Mvo FFl IFl Skp Wrt Bau Mor Alx TRF Aus Clq Ely Win SPt Lit Stl Owa LCr NUl Was Hut Fmt Wnd Nfd Rch SCl Mpl SPl Mkt RWi Pip Luv , dist = 7383
+-->Best cycle: GPo LFa Frb ALe GRa Vir Hib Noy Crk Mar Bem Mrh EGF Dul Bra DLk Wlm Mvo FFl IFl Skp Wrt Bau Mor Alx TRF Aus Clq Ely Win SPt Lit Stl Owa LCr NUl Was Hut Fmt Wnd Nfd Rch SCl Mpl SPl Mkt RWi Pip Luv , dist = 7383
+
+
+Using generic And simulated Anneling Algorithm and time limited by 600 seconds: 
+Initial cycle: GPo Mor TRF Hut Pip GRa Wrt IFl ALe Rch Mrh Ely Vir Win Mvo Bau Skp SCl Bra SPl NUl Wnd Bem Fmt DLk Mpl Noy Clq Owa Crk EGF Frb Hib Aus Mkt LCr Alx SPt Stl Nfd RWi Was FFl Dul Mar Wlm LFa Lit Luv , dist = 10393
+Better cycle ( temp = 100000.0 ) : GPo LFa Dul Fmt NUl Alx IFl Skp Lit Vir SPl Wlm SCl Mar Wnd Wrt Mkt Stl EGF Bra Hib Pip Crk TRF FFl Frb SPt DLk Ely Mvo LCr Nfd Mor Rch Win ALe GRa Was Clq Owa Noy Bau Hut Mpl Aus Mrh RWi Bem Luv , dist = 9480
+Better cycle ( temp = 99880.05398920082 ) : GPo Nfd Mor Hib FFl Mkt Wrt LCr Wnd Clq Wlm Bau DLk EGF Mrh SPt Was GRa Bra Pip RWi Win LFa Crk Mpl Dul Vir NUl Skp Frb Stl IFl TRF Bem Hut Lit Alx SPl Aus Fmt Owa SCl ALe Ely Rch Mar Noy Mvo Luv , dist = 8822
+Better cycle ( temp = 99790.18890552837 ) : GPo Wnd Aus Wrt Lit Bau Clq LCr Mpl DLk FFl SCl Rch ALe Win Bra GRa Frb Noy Mrh EGF Bem LFa SPt Vir RWi Wlm SPl IFl TRF Stl Mkt Hib Crk Alx Mar Mor Hut NUl Fmt Owa Nfd Dul Mvo Pip Ely Skp Was Luv , dist = 8414
+Better cycle ( temp = 99580.81801801038 ) : GPo Noy Mrh NUl Dul SCl Mor Wlm Hut Wnd EGF TRF LCr Bau Crk Fmt Frb Skp Stl Alx Aus RWi Nfd Bra Bem Wrt Rch Lit Pip DLk Mkt SPt Win SPl ALe Was Mpl LFa GRa IFl Ely Hib Owa FFl Mar Mvo Clq Vir Luv , dist = 8189
+Better cycle ( temp = 97189.81384415537 ) : GPo ALe Wnd DLk LCr Clq Hut Wlm SPt Mar Mkt Bau FFl SPl Fmt Hib IFl Aus Mor Was Owa Mpl Pip Mvo LFa Frb Vir TRF Crk Mrh Skp Stl Nfd NUl Alx Noy GRa SCl Lit Bra Dul Bem EGF Ely RWi Win Rch Wrt Luv , dist = 8124
+Better cycle ( temp = 71608.95177691316 ) : GPo LCr Win ALe SCl Mrh Clq DLk Alx SPt Mor Wnd Wrt FFl Mkt Owa Rch GRa Bem Dul Hib LFa Pip Nfd Stl Bra IFl Hut Wlm RWi Noy Mvo TRF Vir SPl Fmt NUl Lit Frb Mpl Mar Crk EGF Ely Bau Aus Skp Was Luv , dist = 8104
+Better cycle ( temp = 65779.4417051701 ) : GPo Stl Mrh Bra DLk LFa LCr Mpl Mor Alx ALe Wlm Mar Pip Lit SCl EGF Crk Bem Nfd Wnd Aus Dul Frb Mkt Skp Hut Win Fmt FFl TRF Vir Ely Wrt Was SPt Clq Noy IFl Rch Bau SPl Hib GRa Mvo NUl RWi Owa Luv , dist = 8075
+Better cycle ( temp = 65503.706137688656 ) : GPo Aus Mkt SPt Win SPl IFl Stl Hib Clq Mrh Pip Alx Wlm Mpl Bra LFa Mor NUl TRF Noy EGF Fmt LCr Wnd Lit FFl RWi SCl GRa Rch Crk DLk Owa Skp Frb ALe Ely Dul Vir Hut Was Nfd Mar Mvo Bem Bau Wrt Luv , dist = 7891
+Better cycle ( temp = 63682.034666642154 ) : GPo Clq Nfd ALe Dul Ely Mor LFa FFl Mrh DLk SPt Mvo NUl Mkt Bem GRa Hib LCr Rch Stl Wlm Crk Alx Vir Noy IFl Bau TRF Wnd Mpl EGF Win Frb Aus Fmt Wrt Pip Skp Hut Bra RWi SPl Lit Mar Owa Was SCl Luv , dist = 7265
+Better cycle ( temp = 17384.99953125944 ) : GPo Fmt Wnd Pip Hut Bem IFl Vir Ely GRa Stl NUl Was Clq Mrh Noy TRF Crk Alx Owa Wrt Win LCr Mpl Hib Dul EGF RWi Nfd Wlm Mor Skp ALe Frb SCl SPl Bra Lit LFa Mkt FFl SPt Aus Mar Mvo DLk Bau Rch Luv , dist = 7204
+-->Best cycle: GPo Fmt Wnd Pip Hut Bem IFl Vir Ely GRa Stl NUl Was Clq Mrh Noy TRF Crk Alx Owa Wrt Win LCr Mpl Hib Dul EGF RWi Nfd Wlm Mor Skp ALe Frb SCl SPl Bra Lit LFa Mkt FFl SPt Aus Mar Mvo DLk Bau Rch Luv , dist = 7204
+
+

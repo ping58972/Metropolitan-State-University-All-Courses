@@ -1,0 +1,55 @@
+Using generic Algorithm:
+Initial cycle: SF Den Min Atl Was LA Bos Dal Sea Mia NY Chi , dist = 15824
+Better cycle ( i = 1 ) : SF Atl NY Bos Dal LA Min Mia Den Sea Was Chi , dist = 14662
+Better cycle ( i = 2 ) : SF Sea Dal NY Atl Mia Was Min LA Den Bos Chi , dist = 11944
+Better cycle ( i = 19 ) : SF LA Den Atl Mia Sea NY Bos Was Min Dal Chi , dist = 11359
+Better cycle ( i = 40 ) : SF Sea LA Min Mia Dal Den NY Was Atl Bos Chi , dist = 10614
+Better cycle ( i = 60 ) : SF Sea LA Mia Was Min Bos NY Atl Den Dal Chi , dist = 10604
+Better cycle ( i = 157 ) : SF LA Sea Den NY Bos Min Mia Dal Was Atl Chi , dist = 10178
+Better cycle ( i = 269 ) : SF Sea LA Den Atl Was Min Bos NY Dal Mia Chi , dist = 10143
+Better cycle ( i = 369 ) : SF Sea LA Den Was Min Dal Mia Bos NY Atl Chi , dist = 9665
+Better cycle ( i = 402 ) : SF Sea Den Dal LA Min NY Was Bos Mia Atl Chi , dist = 9270
+Better cycle ( i = 3517 ) : SF LA Sea Den Mia Dal Atl Min NY Was Bos Chi , dist = 9260
+Better cycle ( i = 3870 ) : SF Sea LA Den Min Atl Dal Mia Bos Was NY Chi , dist = 8498
+Better cycle ( i = 10849 ) : SF LA Sea Den Mia Dal Atl Was Bos NY Min Chi , dist = 8389
+The Algorithm time limited by 3.001sec.
+Best cycle: SF LA Sea Den Mia Dal Atl Was Bos NY Min Chi , dist = 8389
+
+
+Using simulated Anneling Algorithm:
+Initial cycle: SF Was Den Bos Sea Mia LA Min Atl Dal NY Chi , dist = 18596
+Better cycle ( temp = 100000.0 ) : SF Mia Min Atl Was LA Sea Bos NY Den Dal Chi , dist = 14603
+Better cycle ( temp = 99970.0 ) : SF Min LA Bos Was Atl Mia NY Dal Sea Den Chi , dist = 13397
+Better cycle ( temp = 99940.009 ) : SF Den Sea Was Bos LA Min Dal NY Mia Atl Chi , dist = 13379
+Better cycle ( temp = 99910.02699730001 ) : SF LA Den Mia Atl Min Dal Bos NY Sea Was Chi , dist = 12381
+Better cycle ( temp = 99610.7012283789 ) : SF Atl NY Dal Mia Was Bos Den LA Sea Min Chi , dist = 12031
+Better cycle ( temp = 97950.97323372382 ) : SF LA Dal Atl Mia Min Sea Bos NY Was Den Chi , dist = 11174
+Better cycle ( temp = 97657.5166982697 ) : SF Sea Den Min LA Mia Bos Was NY Dal Atl Chi , dist = 10886
+Better cycle ( temp = 96001.52384850875 ) : SF LA Min Was Atl Bos NY Mia Sea Den Dal Chi , dist = 10810
+Better cycle ( temp = 90247.40044904126 ) : SF Sea LA Min Bos NY Dal Mia Atl Was Den Chi , dist = 10529
+Better cycle ( temp = 86094.68909067701 ) : SF LA Sea Bos Dal Atl Mia Was NY Min Den Chi , dist = 10424
+Better cycle ( temp = 81226.29255951145 ) : SF Sea LA Dal Den Min Mia Bos Atl NY Was Chi , dist = 9539
+Better cycle ( temp = 65543.02605444897 ) : SF LA Den Sea Min Atl NY Bos Was Dal Mia Chi , dist = 9341
+Better cycle ( temp = 55455.54691335296 ) : SF LA Sea Dal Den Min Was Mia Atl Bos NY Chi , dist = 8645
+Better cycle ( temp = 3363.0937666350424 ) : SF LA Sea Den Dal Min Was Mia Atl NY Bos Chi , dist = 8070
+The Algorithm time limited by 3.001sec.
+Best cycle: SF LA Sea Den Dal Min Was Mia Atl NY Bos Chi , dist = 8070
+
+Using generic And simulated Anneling Algorithm:
+Initial cycle: SF NY LA Sea Min Den Mia Was Dal Atl Bos Chi , dist = 14464
+Better cycle ( temp = 99910.02699730001 ) : SF Den Bos Was Mia Atl NY Dal LA Min Sea Chi , dist = 12742
+Better cycle ( temp = 99521.0784894732 ) : SF Sea Min Atl NY Den LA Bos Was Mia Dal Chi , dist = 12063
+Better cycle ( temp = 99491.22216592637 ) : SF LA Den Min Dal Sea Mia Bos Atl NY Was Chi , dist = 10934
+Better cycle ( temp = 98540.53442635741 ) : SF LA Den Sea Mia Was Min NY Bos Atl Dal Chi , dist = 10486
+Better cycle ( temp = 96840.50724489267 ) : SF LA Sea Was Bos NY Mia Den Min Atl Dal Chi , dist = 10173
+Better cycle ( temp = 96637.32511675027 ) : SF Sea Den LA Min Atl Dal Was Mia NY Bos Chi , dist = 9929
+Better cycle ( temp = 89923.04534127553 ) : SF LA Sea Atl Mia Dal Den Was NY Bos Min Chi , dist = 9236
+Better cycle ( temp = 70733.4258588196 ) : SF Sea LA Den Min Bos Was Mia NY Atl Dal Chi , dist = 8964
+Better cycle ( temp = 52084.75712723959 ) : SF Sea LA Den Min Dal Bos Was NY Mia Atl Chi , dist = 8464
+Better cycle ( temp = 15432.719060302037 ) : SF LA Sea Den Mia Atl Dal Min Bos NY Was Chi , dist = 8337
+Better cycle ( temp = 6860.417195782253 ) : SF LA Sea Den Dal NY Bos Atl Mia Was Min Chi , dist = 8303
+Better cycle ( temp = 6570.314985225603 ) : SF LA Sea Den Atl Mia Bos NY Was Dal Min Chi , dist = 8197
+Better cycle ( temp = 4790.402225532865 ) : SF Sea LA Den Dal Mia Atl Was Bos NY Min Chi , dist = 7360
+The Algorithm time limited by 3.001sec.
+Best cycle: SF Sea LA Den Dal Mia Atl Was Bos NY Min Chi , dist = 7360
+

@@ -1,0 +1,30 @@
+Using generic Algorithm:
+Initial cycle: M N C S F D W , dist = 4166
+Better cycle ( i = 10 ) : M D F N S C W , dist = 3849
+Better cycle ( i = 47 ) : M C N S F D W , dist = 3702
+Better cycle ( i = 94 ) : M C S N F D W , dist = 3557
+Best cycle: M C S N F D W , dist = 3557
+
+
+Using simulated Anneling Algorithm:
+Initial cycle: M N D F C S W , dist = 5103
+Better cycle ( temp = 100000.0 ) : M C D S F N W , dist = 4884
+Better cycle ( temp = 99970.0 ) : M S F D C N W , dist = 4797
+Better cycle ( temp = 99940.009 ) : M S C N D F W , dist = 4575
+Better cycle ( temp = 99850.08997300407 ) : M C S D F N W , dist = 4339
+Better cycle ( temp = 99640.5934064008 ) : M C N S D F W , dist = 4121
+Better cycle ( temp = 99312.27222546448 ) : M C N S F D W , dist = 3702
+Better cycle ( temp = 98895.97307439084 ) : M C S N F D W , dist = 3557
+The Algorithm time limited by 3.001sec.
+Best cycle: M C S N F D W , dist = 3557
+
+Using generic And simulated Anneling Algorithm:
+Initial cycle: M C F D N S W , dist = 4639
+Better cycle ( temp = 99970.0 ) : M D F C S N W , dist = 4628
+Better cycle ( temp = 99700.40467617007 ) : M F S N C D W , dist = 4458
+Better cycle ( temp = 99610.7012283789 ) : M D F N S C W , dist = 3849
+Better cycle ( temp = 98925.65076962173 ) : M C N S F D W , dist = 3702
+Better cycle ( temp = 97218.97953801678 ) : M C S N F D W , dist = 3557
+The Algorithm time limited by 3.001sec.
+Best cycle: M C S N F D W , dist = 3557
+

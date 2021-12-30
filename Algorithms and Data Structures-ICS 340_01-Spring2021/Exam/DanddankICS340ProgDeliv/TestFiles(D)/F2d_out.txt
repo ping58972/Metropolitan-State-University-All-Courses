@@ -1,0 +1,20 @@
+Using simulated Anneling Algorithm:
+Initial cycle: B C D S A T , dist = 14
+Better cycle ( temp = 997602.5184885672 ) : B C D A S T , dist = 13
+The Algorithm time limited by 3.001sec.
+Best cycle: B C D A S T , dist = 13
+
+Using generic And simulated Anneling Algorithm:
+Initial cycle: B S D C A T , dist = 28
+Better cycle ( temp = 998800.5398920083 ) : B D A S C T , dist = 20
+Better cycle ( temp = 997901.8890552837 ) : B C A S D T , dist = 17
+Better cycle ( temp = 997602.5184885672 ) : B C D A S T , dist = 13
+The Algorithm time limited by 3.001sec.
+Best cycle: B C D A S T , dist = 13
+
+Using generic Algorithm:
+Initial cycle: B C D S A T , dist = 14
+Better cycle ( i = 8 ) : B C D A S T , dist = 13
+Best cycle: B C D A S T , dist = 13
+
+
