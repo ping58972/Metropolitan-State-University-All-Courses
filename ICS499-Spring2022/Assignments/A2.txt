@@ -1,0 +1,46 @@
+How to add "core.jar" to your classpath?
+
+1. download Processing from https://processing.org/download
+
+2. Extract the contents to some directory. For example  c://processing
+(remember this directory)
+
+3. Import the ZIP into Eclipise (File --> Import)
+
+File --> Import --> Existing Projects into Workspace
+
+next
+
+You have to explictly check 
+( ) Select archive file
+
+click Browse button
+locate the A2_TicTacToe.zip file you downloaded from D2L
+Finish
+
+
+4. You would see the project imported into your Eclipse.
+However, you will NOT see core.jar because you don't have it at the proper location.
+
+5. How to fix "core.jar" setup?
+
+- Right click
+- Build Path
+- Configure Build Path
+- Libraries
+- click "Class path"
+- click the button "Add External Jars.."
+-- Locate "core.jar" from the directory (see step 2)
+-- Apply and CLose
+
+6. How to run TicTacToe?
+
+[6.1] Select COnsoleMain.java 
+Right click
+RUn as Application
+
+[6.2] Select GraphicsMain.java
+Right click
+RUn as Application
+
+You will be able to run GraphicsMain.java only after you fix the "core.java" setup issues.
