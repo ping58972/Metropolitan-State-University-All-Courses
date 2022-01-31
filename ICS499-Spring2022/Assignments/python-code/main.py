@@ -1,5 +1,5 @@
 '''Author: Nalongsone Danddank, Assignment #3, Jan 26 2022, ICS499 METRO STATE '''
-import string
+
 import requests
 import json
 import random
