@@ -19,6 +19,7 @@ def index():
             return render_template("index.html", result=result[1], gui=gui)
     return render_template("index.html", result=None, gui=gui)
 
+# For Ping  https://github.com/sjasthi/tordle
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
