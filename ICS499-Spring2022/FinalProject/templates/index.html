@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="content-senction">
+  <form method="POST" action="">
+  {{ gui.hidden_tag() }}
+    <fieldset class="form-group">
+      <legend class="border-bottom mb-4">Welcome To Play Wordle Game</legend>
+      <div class="form-group">
+        {{ gui.input.label(class="form-control-label") }}
+        {% if gui.input.errors %}
+        {{ gui.input(class="form-control form-control-lg is-invalid") }}
+        <div class="invalid-feedback">
+          {% for error in  gui.input.errors %}
+          <span>{{error}}</span>
+          {%endfor%}
+        </div>
+        {%else%}
+        {{ gui.input(class="form-control form-control-lg") }}
+        {% if result %}
+          {% if result == '11111' %}
+          <div class="form-control form-control-lg is-valid">
+          You enter all correct
+            </div>
+          {% else%}
+          <div class="form-control form-control-lg is-invalid">
+          You enter Wrong! {{result}}
+            </div>
+          {%endif%}
+
+        {% endif %}
+        {% endif %}
+        </div>
+
+    </fieldset>
+    <div class="form-group">
+      {{ gui.submit(class="btn btn-outline-info") }}
+    </div>
+  </form>
+</div>
+
+{% endblock %}
