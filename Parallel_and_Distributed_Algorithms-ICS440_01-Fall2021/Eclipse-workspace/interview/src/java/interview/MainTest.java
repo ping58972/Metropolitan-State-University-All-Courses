@@ -1,14 +1,26 @@
 package interview;
 
-import static org.junit.jupiter.api.Assertions.*;
+class MainTest extends Thread {
 
-import org.junit.jupiter.api.*;
+    // @Test
+    // void test() {
+    // assertEquals("test", new Main().testString());
+    // }
 
-class MainTest {
+    @Override
+    public void run() {
+        for (int i = 0; i <= 50; i++ ) {
+            System.out.println("Run: " + i);
+        }
+    }
 
-    @Test
-    void test() {
-        assertEquals("test", new Main().testString());
+    public static void main(String[] args) {
+        MainTest mt = new MainTest();
+        mt.start();
+        mt.run();
+        for (int i = 0; i <= 50; i++ ) {
+            System.out.println("Main: " + i);
+        }
     }
 
 }
